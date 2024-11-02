@@ -2,10 +2,12 @@
   "id": 1931442099,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-01",
+    "date:cessation_upper": "2024-11-01",
     "date:inception_lower": "2024-11-01",
     "date:inception_upper": "2024-11-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-01",
+    "edtf:cessation": "2024-11-01T21:35:00Z",
+    "edtf:inception": "2024-11-01T18:21:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -106.3692875,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 1746879059,
     "sfomuseum:base_flight_id": "20241101-D-ANZ-9707",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N47298",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "83777599",
+      "swim:gufi": "KO55292600"
+    },
     "wof:country": "US",
     "wof:created": 1730565148,
     "wof:geomhash": "17371a5d27e54a99ca50752d2b6a5e79",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931442099,
     "wof:involves": [
+      1528104575,
       1746879059,
       102527513,
       1159285413,
       1914600927,
       1159283697
     ],
-    "wof:lastmodified": 1730565148,
+    "wof:lastmodified": 1730565408,
     "wof:name": "UA1998 (SFO-STL)",
     "wof:parent_id": 1914600927,
     "wof:placetype": "custom",

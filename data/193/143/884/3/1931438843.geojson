@@ -2,10 +2,12 @@
   "id": 1931438843,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-01",
+    "date:cessation_upper": "2024-11-01",
     "date:inception_lower": "2024-11-01",
     "date:inception_upper": "2024-11-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-01",
+    "edtf:cessation": "2024-11-01T17:50:00Z",
+    "edtf:inception": "2024-11-01T16:57:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "AAL",
     "icao:base_airline": "EIN",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20241101-D-EIN-7110",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N746UW",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "83770424",
+      "swim:gufi": "KO55579600"
+    },
     "wof:country": "US",
     "wof:created": 1730564307,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931438843,
     "wof:involves": [
+      1159289407,
       102533795,
       102527513,
       1159283849,
       1914601229,
       1159283495
     ],
-    "wof:lastmodified": 1730564307,
+    "wof:lastmodified": 1730565394,
     "wof:name": "AA1623 (SFO-LAX)",
     "wof:parent_id": 1914601229,
     "wof:placetype": "custom",

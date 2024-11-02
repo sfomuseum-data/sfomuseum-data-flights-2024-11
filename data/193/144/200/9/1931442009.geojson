@@ -2,10 +2,12 @@
   "id": 1931442009,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-01",
+    "date:cessation_upper": "2024-11-01",
     "date:inception_lower": "2024-11-01",
     "date:inception_upper": "2024-11-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-01",
+    "edtf:cessation": "2024-11-01T22:51:00Z",
+    "edtf:inception": "2024-11-01T20:58:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:base_flight_id": "20241101-D-ANA-7310",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N215UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "83788705",
+      "swim:gufi": "KO61335600"
+    },
     "wof:country": "US",
     "wof:created": 1730565122,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931442009,
     "wof:involves": [
-      102531189,
       102527513,
       1159285413,
       1914600871,
-      1159283875
+      1159283875,
+      1159289985,
+      102531189
     ],
-    "wof:lastmodified": 1730565122,
+    "wof:lastmodified": 1730565407,
     "wof:name": "UA1417 (SFO-DEN)",
     "wof:parent_id": 1914600871,
     "wof:placetype": "custom",
