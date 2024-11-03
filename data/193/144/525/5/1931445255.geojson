@@ -2,10 +2,12 @@
   "id": 1931445255,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-02",
+    "date:cessation_upper": "2024-11-02",
     "date:inception_lower": "2024-11-02",
     "date:inception_upper": "2024-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-02",
+    "edtf:cessation": "2024-11-02T19:49:03Z",
+    "edtf:inception": "2024-11-02T09:27:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "KL",
     "flysfo:date": "2024-11-02",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "83896934"
+    },
     "wof:country": "US",
     "wof:created": 1730650263,
     "wof:geomhash": "bfe9b4dfbd612ca8de6bd9460273f90d",
@@ -51,7 +56,7 @@
       1159284613,
       -1
     ],
-    "wof:lastmodified": 1730650263,
+    "wof:lastmodified": 1730651647,
     "wof:name": "KL132 (AMS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

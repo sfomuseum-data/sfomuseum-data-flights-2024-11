@@ -2,10 +2,12 @@
   "id": 1931448275,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-03",
+    "date:cessation_upper": "2024-11-03",
     "date:inception_lower": "2024-11-02",
     "date:inception_upper": "2024-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-02",
+    "edtf:cessation": "2024-11-03T10:12:51Z",
+    "edtf:inception": "2024-11-02T20:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "CA",
     "flysfo:date": "2024-11-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.8432295,
     "geom:longitude": -2.892393999999996,
     "iata:airline": "CA",
+    "icao:aircraft": "B77W",
     "icao:airline": "CCA",
     "lbl:latitude": 37.61844,
     "lbl:longitude": -122.392214,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159283605,
     "sfomuseum:arrival_id": 102550367,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "B2031",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +57,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "83868434"
+    },
     "wof:country": "US",
     "wof:created": 1730651049,
     "wof:geomhash": "8a4a8d08e2e66037bce440d01d4bc21e",
@@ -86,9 +98,10 @@
       102550367,
       102527513,
       1159283605,
-      1914601089
+      1914601089,
+      1159289993
     ],
-    "wof:lastmodified": 1730651049,
+    "wof:lastmodified": 1730651683,
     "wof:name": "CA986 (SFO-PEK)",
     "wof:parent_id": 1914601089,
     "wof:placetype": "custom",

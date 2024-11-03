@@ -2,10 +2,12 @@
   "id": 1931448409,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-03",
+    "date:cessation_upper": "2024-11-03",
     "date:inception_lower": "2024-11-02",
     "date:inception_upper": "2024-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-02",
+    "edtf:cessation": "2024-11-03T03:26:00Z",
+    "edtf:inception": "2024-11-02T22:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "icao:base_airline": "KAL",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20241102-D-KAL-7234",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N702TW",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "83878272",
+      "swim:gufi": "KO78061700"
+    },
     "wof:country": "US",
     "wof:created": 1730651084,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931448409,
     "wof:involves": [
-      102534365,
       102527513,
       1159284261,
       1914601431,
-      1159284625
+      1159284625,
+      1159289939,
+      102534365
     ],
-    "wof:lastmodified": 1730651084,
+    "wof:lastmodified": 1730651684,
     "wof:name": "DL680 (SFO-JFK)",
     "wof:parent_id": 1914601431,
     "wof:placetype": "custom",

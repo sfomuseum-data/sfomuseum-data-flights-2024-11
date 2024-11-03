@@ -2,10 +2,12 @@
   "id": 1931443023,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-02",
+    "date:cessation_upper": "2024-11-02",
     "date:inception_lower": "2024-11-02",
     "date:inception_upper": "2024-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-02",
+    "edtf:cessation": "2024-11-02T22:51:18Z",
+    "edtf:inception": "2024-11-02T21:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.19416749999999,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "CSN",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241102-A-CSN-1642",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N908AA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "83874136",
+      "swim:gufi": "KA71842700"
+    },
     "wof:country": "US",
     "wof:created": 1730649658,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931443023,
     "wof:involves": [
+      1914601251,
+      1159284165,
+      1159289411,
       102527513,
       102526751,
-      1159283849,
-      1914601251,
-      1159284165
+      1159283849
     ],
-    "wof:lastmodified": 1730649658,
+    "wof:lastmodified": 1730651652,
     "wof:name": "AA2846 (PHX-SFO)",
     "wof:parent_id": 1914601251,
     "wof:placetype": "custom",

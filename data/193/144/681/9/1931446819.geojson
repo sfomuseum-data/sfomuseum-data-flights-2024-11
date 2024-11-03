@@ -2,10 +2,12 @@
   "id": 1931446819,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-11-02",
-    "date:inception_upper": "2024-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-02",
+    "date:cessation_lower": "2024-11-03",
+    "date:cessation_upper": "2024-11-03",
+    "date:inception_lower": "2024-11-03",
+    "date:inception_upper": "2024-11-03",
+    "edtf:cessation": "2024-11-03T12:03:00Z",
+    "edtf:inception": "2024-11-03T07:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "CSN",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102531023,
     "sfomuseum:base_flight_id": "20241102-D-CSN-1639",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N955XV",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "83817753"
+    },
     "wof:country": "US",
     "wof:created": 1730650669,
     "wof:geomhash": "05e474f4bf1eb5ae110c20d94aac828f",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1931446819,
     "wof:involves": [
+      1914601225,
+      1159284165,
+      1159289411,
       102531023,
       102527513,
-      1159283849,
-      1914601225,
-      1159284165
+      1159283849
     ],
-    "wof:lastmodified": 1730650669,
+    "wof:lastmodified": 1730651668,
     "wof:name": "AA2389 (SFO-MIA)",
     "wof:parent_id": 1914601225,
     "wof:placetype": "custom",
