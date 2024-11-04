@@ -1,0 +1,72 @@
+{
+  "id": 1931453215,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2024-11-03",
+    "date:inception_upper": "2024-11-03",
+    "edtf:cessation": "",
+    "edtf:inception": "2024-11-03",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "KL",
+    "flysfo:date": "2024-11-03",
+    "flysfo:estimated_timestamp": 1730661120,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "KL132",
+    "flysfo:gate": "",
+    "flysfo:journey": "AMS-SFO",
+    "flysfo:scheduled_timestamp": 1730659980,
+    "flysfo:timestamp": 1730661120,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,4.782907,52.314791",
+    "geom:latitude": 44.9663905,
+    "geom:longitude": -58.794018,
+    "iata:airline": "KL",
+    "icao:airline": "KLM",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284613,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102542801,
+    "sfomuseum:flight_id": "20241103-A-KLM-132",
+    "sfomuseum:flight_number": [
+      "KLM132",
+      "KL132"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1730736745,
+    "wof:geomhash": "bfe9b4dfbd612ca8de6bd9460273f90d",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1931453215,
+        "flight_id": 1931453215
+      }
+    ],
+    "wof:id": 1931453215,
+    "wof:involves": [
+      102527513,
+      102542801,
+      1159284613,
+      -1
+    ],
+    "wof:lastmodified": 1730736745,
+    "wof:name": "KL132 (AMS-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2024-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    4.782907,
+    52.314791
+  ],
+  "geometry": {"coordinates":[[4.782907,52.314791],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
