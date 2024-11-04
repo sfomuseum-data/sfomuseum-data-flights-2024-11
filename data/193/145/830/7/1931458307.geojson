@@ -2,10 +2,12 @@
   "id": 1931458307,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-03",
+    "date:cessation_upper": "2024-11-03",
     "date:inception_lower": "2024-11-03",
     "date:inception_upper": "2024-11-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-03",
+    "edtf:cessation": "2024-11-03T23:09:00Z",
+    "edtf:inception": "2024-11-03T18:55:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-11-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.8087165,
     "geom:longitude": -102.62808,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102532255,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N882UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +57,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "83926844",
+      "swim:gufi": "KO60202100"
+    },
     "wof:country": "US",
     "wof:created": 1730738076,
     "wof:geomhash": "b3e3651b522d461c555c2feff400782a",
@@ -86,9 +99,10 @@
       102532255,
       102527513,
       1159285413,
-      1914600851
+      1914600851,
+      1159289407
     ],
-    "wof:lastmodified": 1730738076,
+    "wof:lastmodified": 1730738384,
     "wof:name": "UA1355 (SFO-CMH)",
     "wof:parent_id": 1914600851,
     "wof:placetype": "custom",

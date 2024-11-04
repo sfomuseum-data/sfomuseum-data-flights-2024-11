@@ -2,10 +2,12 @@
   "id": 1931455599,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-03",
+    "date:cessation_upper": "2024-11-03",
     "date:inception_lower": "2024-11-03",
     "date:inception_upper": "2024-11-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-03",
+    "edtf:cessation": "2024-11-03T20:34:46Z",
+    "edtf:inception": "2024-11-03T04:36:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AI",
     "flysfo:date": "2024-11-03",
@@ -48,6 +50,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "83892810"
+    },
     "wof:country": "US",
     "wof:created": 1730737357,
     "wof:geomhash": "7594d2d7f8f5c44116c949d1b59a70d0",
@@ -88,7 +93,7 @@
       1159283649,
       1914601025
     ],
-    "wof:lastmodified": 1730737357,
+    "wof:lastmodified": 1730738373,
     "wof:name": "AI180 (SFO-BOM)",
     "wof:parent_id": 1914601025,
     "wof:placetype": "custom",

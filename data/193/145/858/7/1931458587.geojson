@@ -2,10 +2,12 @@
   "id": 1931458587,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-03",
+    "date:cessation_upper": "2024-11-03",
     "date:inception_lower": "2024-11-03",
     "date:inception_upper": "2024-11-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-03",
+    "edtf:cessation": "2024-11-03T19:00:00Z",
+    "edtf:inception": "2024-11-03T15:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.982418,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.620791,
     "lbl:longitude": -122.390014,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531811,
     "sfomuseum:base_flight_id": "20241103-D-ANZ-9082",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N890UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "83912196",
+      "swim:gufi": "KO52930100"
+    },
     "wof:country": "US",
     "wof:created": 1730738150,
     "wof:geomhash": "e3775dcc82e10b2050a0f38d95bd1f16",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931458587,
     "wof:involves": [
-      102531811,
       102527513,
       1159285413,
       1914600867,
-      1159283697
+      1159283697,
+      1159289407,
+      102531811
     ],
-    "wof:lastmodified": 1730738150,
+    "wof:lastmodified": 1730738386,
     "wof:name": "UA344 (SFO-OKC)",
     "wof:parent_id": 1914600867,
     "wof:placetype": "custom",
