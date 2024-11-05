@@ -2,10 +2,12 @@
   "id": 1931462299,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-04",
+    "date:cessation_upper": "2024-11-04",
     "date:inception_lower": "2024-11-04",
     "date:inception_upper": "2024-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-04",
+    "edtf:cessation": "2024-11-04T07:57:00Z",
+    "edtf:inception": "2024-11-04T06:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2024-11-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527209,
@@ -48,6 +52,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "83964832",
+      "swim:gufi": "KL14582200"
+    },
     "wof:country": "US",
     "wof:created": 1730823184,
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
@@ -83,12 +91,13 @@
     ],
     "wof:id": 1931462299,
     "wof:involves": [
+      1159289869,
       102527513,
       102527209,
       1159285591,
       1914601215
     ],
-    "wof:lastmodified": 1730823184,
+    "wof:lastmodified": 1730824468,
     "wof:name": "WN173 (LAS-SFO)",
     "wof:parent_id": 1914601215,
     "wof:placetype": "custom",

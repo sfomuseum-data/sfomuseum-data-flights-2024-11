@@ -2,10 +2,12 @@
   "id": 1931467205,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-04",
+    "date:cessation_upper": "2024-11-04",
     "date:inception_lower": "2024-11-04",
     "date:inception_upper": "2024-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-04",
+    "edtf:cessation": "2024-11-04T23:32:00Z",
+    "edtf:inception": "2024-11-04T19:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-11-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N24979",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "83999161",
+      "swim:gufi": "KO58698200"
+    },
     "wof:country": "US",
     "wof:created": 1730824351,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1931467205,
     "wof:involves": [
+      1159293215,
       102530049,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1730824351,
+    "wof:lastmodified": 1730824489,
     "wof:name": "UA8149 (SFO-EWR)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

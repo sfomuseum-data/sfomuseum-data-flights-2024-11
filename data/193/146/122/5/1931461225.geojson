@@ -2,10 +2,12 @@
   "id": 1931461225,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-04",
+    "date:cessation_upper": "2024-11-04",
     "date:inception_lower": "2024-11-04",
     "date:inception_upper": "2024-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-04",
+    "edtf:cessation": "2024-11-04T17:47:38Z",
+    "edtf:inception": "2024-11-04T12:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "icao:base_airline": "LAN",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241104-A-LAN-6678",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N179DN",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84034966",
+      "swim:gufi": "KN40264200"
+    },
     "wof:country": "US",
     "wof:created": 1730822925,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931461225,
     "wof:involves": [
+      1914601431,
+      1159285641,
+      1159289965,
       102527513,
       102534365,
-      1159284261,
-      1914601431,
-      1159285641
+      1159284261
     ],
-    "wof:lastmodified": 1730822925,
+    "wof:lastmodified": 1730824493,
     "wof:name": "DL668 (JFK-SFO)",
     "wof:parent_id": 1914601431,
     "wof:placetype": "custom",

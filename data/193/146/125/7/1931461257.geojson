@@ -2,10 +2,12 @@
   "id": 1931461257,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-04",
+    "date:cessation_upper": "2024-11-04",
     "date:inception_lower": "2024-11-04",
     "date:inception_upper": "2024-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-04",
+    "edtf:cessation": "2024-11-04T20:19:01Z",
+    "edtf:inception": "2024-11-04T18:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "DAL",
     "icao:base_airline": "AFR",
     "lbl:latitude": 37.614792,
     "lbl:longitude": -122.382166,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241104-A-AFR-2653",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N350NA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "83998738",
+      "swim:gufi": "KU64261200"
+    },
     "wof:country": "US",
     "wof:created": 1730822934,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931461257,
     "wof:involves": [
+      1914601439,
+      1159283627,
+      1159292085,
       102527513,
       102527363,
-      1159284261,
-      1914601439,
-      1159283627
+      1159284261
     ],
-    "wof:lastmodified": 1730822934,
+    "wof:lastmodified": 1730824493,
     "wof:name": "DL902 (SLC-SFO)",
     "wof:parent_id": 1914601439,
     "wof:placetype": "custom",

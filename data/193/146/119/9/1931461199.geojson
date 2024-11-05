@@ -2,10 +2,12 @@
   "id": 1931461199,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-04",
+    "date:cessation_upper": "2024-11-04",
     "date:inception_lower": "2024-11-04",
     "date:inception_upper": "2024-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-04",
+    "edtf:cessation": "2024-11-04T18:20:47Z",
+    "edtf:inception": "2024-11-04T13:53:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2024-11-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.918425,
     "geom:longitude": -102.86132599999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B753",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525635,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N587NW",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +57,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "83975070",
+      "swim:gufi": "KC45961200"
+    },
     "wof:country": "US",
     "wof:created": 1730822917,
     "wof:geomhash": "a23858bb4e93419105e139a22bd92749",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1931461199,
     "wof:involves": [
-      102527513,
       102525635,
       1159284261,
-      1914601427
+      1914601427,
+      1159289945,
+      102527513
     ],
-    "wof:lastmodified": 1730822917,
+    "wof:lastmodified": 1730824492,
     "wof:name": "DL361 (DTW-SFO)",
     "wof:parent_id": 1914601427,
     "wof:placetype": "custom",

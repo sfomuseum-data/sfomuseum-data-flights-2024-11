@@ -2,10 +2,12 @@
   "id": 1931466943,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-04",
+    "date:cessation_upper": "2024-11-04",
     "date:inception_lower": "2024-11-04",
     "date:inception_upper": "2024-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-04",
+    "edtf:cessation": "2024-11-04T18:49:44Z",
+    "edtf:inception": "2024-11-04T15:40:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617921,
     "lbl:longitude": -122.38181,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528541,
     "sfomuseum:base_flight_id": "20241104-D-ACA-4163",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N842UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "83983712",
+      "swim:gufi": "KO47895200"
+    },
     "wof:country": "US",
     "wof:created": 1730824291,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931466943,
     "wof:involves": [
+      1159289407,
       102528541,
       102527513,
       1159285413,
       1914601379,
       1159283597
     ],
-    "wof:lastmodified": 1730824291,
+    "wof:lastmodified": 1730824488,
     "wof:name": "UA344 (SFO-DFW)",
     "wof:parent_id": 1914601379,
     "wof:placetype": "custom",
