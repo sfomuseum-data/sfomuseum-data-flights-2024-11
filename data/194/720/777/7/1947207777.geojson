@@ -1,0 +1,72 @@
+{
+  "id": 1947207777,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2024-11-06",
+    "date:inception_upper": "2024-11-06",
+    "edtf:cessation": "",
+    "edtf:inception": "2024-11-06",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2024-11-06",
+    "flysfo:estimated_timestamp": 1730957160,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA8237",
+    "flysfo:gate": "",
+    "flysfo:journey": "PDX-SFO",
+    "flysfo:scheduled_timestamp": 1730956680,
+    "flysfo:timestamp": 1730957160,
+    "geom:area": 0,
+    "geom:bbox": "-122.597389,37.617990,-122.370943,45.586144",
+    "geom:latitude": 41.602067,
+    "geom:longitude": -122.484166,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102532251,
+    "sfomuseum:flight_id": "20241106-A-UAL-8237",
+    "sfomuseum:flight_number": [
+      "UAL8237",
+      "UA8237"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1730996238,
+    "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1947207777,
+        "flight_id": 1947207777
+      }
+    ],
+    "wof:id": 1947207777,
+    "wof:involves": [
+      102527513,
+      102532251,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1730996238,
+    "wof:name": "UA8237 (PDX-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2024-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.597389,
+    37.61799,
+    -122.370943,
+    45.586144
+  ],
+  "geometry": {"coordinates":[[-122.597389,45.586144],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
