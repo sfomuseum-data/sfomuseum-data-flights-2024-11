@@ -2,10 +2,12 @@
   "id": 1947211507,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-06",
+    "date:cessation_upper": "2024-11-06",
     "date:inception_lower": "2024-11-06",
     "date:inception_upper": "2024-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-06",
+    "edtf:cessation": "2024-11-06T22:43:00Z",
+    "edtf:inception": "2024-11-06T19:08:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "AUA",
     "lbl:latitude": 37.616825,
     "lbl:longitude": -122.381021,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:base_flight_id": "20241106-D-AUA-7718",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N781UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84130079",
+      "swim:gufi": "KO48386400"
+    },
     "wof:country": "US",
     "wof:created": 1730997235,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947211507,
     "wof:involves": [
-      102533631,
-      102527513,
       1159285413,
       1914601355,
-      1159283947
+      1159283947,
+      1159289985,
+      102533631,
+      102527513
     ],
-    "wof:lastmodified": 1730997235,
+    "wof:lastmodified": 1730997439,
     "wof:name": "UA534 (SFO-ORD)",
     "wof:parent_id": 1914601355,
     "wof:placetype": "custom",

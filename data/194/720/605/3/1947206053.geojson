@@ -2,10 +2,12 @@
   "id": 1947206053,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-07",
+    "date:cessation_upper": "2024-11-07",
     "date:inception_lower": "2024-11-06",
     "date:inception_upper": "2024-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-06",
+    "edtf:cessation": "2024-11-07T01:44:04Z",
+    "edtf:inception": "2024-11-06T20:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "icao:base_airline": "KLM",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241106-A-KLM-7172",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N179DN",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84147079",
+      "swim:gufi": "KN68761401"
+    },
     "wof:country": "US",
     "wof:created": 1730995774,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947206053,
     "wof:involves": [
+      1914601431,
+      1159284613,
+      1159289965,
       102527513,
       102534365,
-      1159284261,
-      1914601431,
-      1159284613
+      1159284261
     ],
-    "wof:lastmodified": 1730995774,
+    "wof:lastmodified": 1730997403,
     "wof:name": "DL679 (JFK-SFO)",
     "wof:parent_id": 1914601431,
     "wof:placetype": "custom",

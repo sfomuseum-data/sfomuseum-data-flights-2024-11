@@ -2,10 +2,12 @@
   "id": 1947211183,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-06",
+    "date:cessation_upper": "2024-11-06",
     "date:inception_lower": "2024-11-06",
     "date:inception_upper": "2024-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-06",
+    "edtf:cessation": "2024-11-06T23:33:00Z",
+    "edtf:inception": "2024-11-06T19:11:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-11-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.8087165,
     "geom:longitude": -102.62808,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102532255,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N27270",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +57,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84141471",
+      "swim:gufi": "KO56121400"
+    },
     "wof:country": "US",
     "wof:created": 1730997151,
     "wof:geomhash": "b3e3651b522d461c555c2feff400782a",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947211183,
     "wof:involves": [
+      1914600859,
+      1528104575,
       102532255,
       102527513,
-      1159285413,
-      1914600859
+      1159285413
     ],
-    "wof:lastmodified": 1730997151,
+    "wof:lastmodified": 1730997432,
     "wof:name": "UA1355 (SFO-CMH)",
     "wof:parent_id": 1914600859,
     "wof:placetype": "custom",

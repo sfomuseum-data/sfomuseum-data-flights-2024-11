@@ -2,10 +2,12 @@
   "id": 1947207529,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-06",
+    "date:cessation_upper": "2024-11-06",
     "date:inception_lower": "2024-11-06",
     "date:inception_upper": "2024-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-06",
+    "edtf:cessation": "2024-11-06T18:52:00Z",
+    "edtf:inception": "2024-11-06T17:17:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-11-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617921,
     "lbl:longitude": -122.38181,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533269,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N821UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +57,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84169932",
+      "swim:gufi": "KS49794400"
+    },
     "wof:country": "US",
     "wof:created": 1730996168,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947207529,
     "wof:involves": [
-      102527513,
       102533269,
       1159285413,
-      1914601379
+      1914601379,
+      1159289407,
+      102527513
     ],
-    "wof:lastmodified": 1730996168,
+    "wof:lastmodified": 1730997428,
     "wof:name": "UA3921 (SEA-SFO)",
     "wof:parent_id": 1914601379,
     "wof:placetype": "custom",

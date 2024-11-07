@@ -2,10 +2,12 @@
   "id": 1947207341,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-06",
+    "date:cessation_upper": "2024-11-06",
     "date:inception_lower": "2024-11-06",
     "date:inception_upper": "2024-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-06",
+    "edtf:cessation": "2024-11-06T14:13:55Z",
+    "edtf:inception": "2024-11-06T09:36:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -39,6 +41,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +58,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84106094"
+    },
     "wof:country": "US",
     "wof:created": 1730996112,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -94,7 +102,7 @@
       1914601071,
       1159283597
     ],
-    "wof:lastmodified": 1730996112,
+    "wof:lastmodified": 1730997421,
     "wof:name": "UA1947 (HNL-SFO)",
     "wof:parent_id": 1914601071,
     "wof:placetype": "custom",

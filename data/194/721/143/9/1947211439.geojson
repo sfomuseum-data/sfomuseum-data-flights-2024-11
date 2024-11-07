@@ -2,10 +2,12 @@
   "id": 1947211439,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-06",
+    "date:cessation_upper": "2024-11-06",
     "date:inception_lower": "2024-11-06",
     "date:inception_upper": "2024-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-06",
+    "edtf:cessation": "2024-11-06T16:19:00Z",
+    "edtf:inception": "2024-11-06T15:25:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20241106-D-AVA-2039",
@@ -39,7 +43,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N73256",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "84123361",
+      "swim:gufi": "KO48044400"
+    },
     "wof:country": "US",
     "wof:created": 1730997217,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -55,9 +68,10 @@
       102527513,
       1159285413,
       1914600925,
-      1159285749
+      1159285749,
+      1159289871
     ],
-    "wof:lastmodified": 1730997217,
+    "wof:lastmodified": 1730997438,
     "wof:name": "UA345 (SFO-LAX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

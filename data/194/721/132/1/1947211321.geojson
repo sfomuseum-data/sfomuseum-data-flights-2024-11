@@ -2,10 +2,12 @@
   "id": 1947211321,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-07",
+    "date:cessation_upper": "2024-11-07",
     "date:inception_lower": "2024-11-06",
     "date:inception_upper": "2024-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-06",
+    "edtf:cessation": "2024-11-07T01:45:18Z",
+    "edtf:inception": "2024-11-06T21:08:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "SWR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:base_flight_id": "20241106-D-SWR-3171",
@@ -39,7 +43,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N27015",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "84148227",
+      "swim:gufi": "KO61657400"
+    },
     "wof:country": "US",
     "wof:created": 1730997187,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -55,9 +68,10 @@
       102527513,
       1159285413,
       1914600849,
-      1159286475
+      1159286475,
+      1159289985
     ],
-    "wof:lastmodified": 1730997187,
+    "wof:lastmodified": 1730997435,
     "wof:name": "UA2166 (SFO-EWR)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

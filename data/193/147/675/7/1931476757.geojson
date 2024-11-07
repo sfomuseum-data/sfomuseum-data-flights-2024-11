@@ -2,10 +2,12 @@
   "id": 1931476757,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-06",
+    "date:cessation_upper": "2024-11-06",
     "date:inception_lower": "2024-11-06",
     "date:inception_upper": "2024-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-06",
+    "edtf:cessation": "2024-11-06T23:54:43Z",
+    "edtf:inception": "2024-11-06T22:25:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2024-11-06",
@@ -34,7 +36,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "84242657"
+    },
     "wof:country": "US",
     "wof:created": 1730995593,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -51,7 +59,7 @@
       1159283813,
       -1
     ],
-    "wof:lastmodified": 1730995593,
+    "wof:lastmodified": 1730997411,
     "wof:name": "AS1497 (SAN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

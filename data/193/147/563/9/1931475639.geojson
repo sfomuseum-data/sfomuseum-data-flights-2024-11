@@ -2,10 +2,12 @@
   "id": 1931475639,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-06",
+    "date:cessation_upper": "2024-11-06",
     "date:inception_lower": "2024-11-06",
     "date:inception_upper": "2024-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-06",
+    "edtf:cessation": "2024-11-06T23:08:15Z",
+    "edtf:inception": "2024-11-06T22:06:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "AAL",
     "icao:base_airline": "FJI",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241106-A-FJI-5031",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N776XF",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84158173"
+    },
     "wof:country": "US",
     "wof:created": 1730995285,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -88,13 +99,14 @@
     ],
     "wof:id": 1931475639,
     "wof:involves": [
-      102527513,
       102533795,
       1159283849,
       1914601229,
-      1159283717
+      1159283717,
+      1159289407,
+      102527513
     ],
-    "wof:lastmodified": 1730995285,
+    "wof:lastmodified": 1730997399,
     "wof:name": "AA3282 (LAX-SFO)",
     "wof:parent_id": 1914601229,
     "wof:placetype": "custom",
