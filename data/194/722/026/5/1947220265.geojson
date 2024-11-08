@@ -1,0 +1,72 @@
+{
+  "id": 1947220265,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2024-11-07",
+    "date:inception_upper": "2024-11-07",
+    "edtf:cessation": "",
+    "edtf:inception": "2024-11-07",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2024-11-07",
+    "flysfo:estimated_timestamp": 1731015900,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "UA5191",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-COS",
+    "flysfo:scheduled_timestamp": 1731001500,
+    "flysfo:timestamp": 1731015900,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-104.689858,38.773626",
+    "geom:latitude": 38.195808,
+    "geom:longitude": -113.5304005,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102526247,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20241107-D-UAL-5191",
+    "sfomuseum:flight_number": [
+      "UAL5191",
+      "UA5191"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1731083826,
+    "wof:geomhash": "8aed97a089883cbe179a22c2076f7bb1",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1947220265,
+        "flight_id": 1947220265
+      }
+    ],
+    "wof:id": 1947220265,
+    "wof:involves": [
+      102526247,
+      102527513,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1731083826,
+    "wof:name": "UA5191 (SFO-COS)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2024-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -104.689858,
+    38.773626
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-104.689858,38.773626]],"type":"MultiPoint"}
+}
