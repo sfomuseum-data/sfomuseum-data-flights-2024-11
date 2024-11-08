@@ -2,10 +2,12 @@
   "id": 1947220423,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-07",
+    "date:cessation_upper": "2024-11-07",
     "date:inception_lower": "2024-11-07",
     "date:inception_upper": "2024-11-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-07",
+    "edtf:cessation": "2024-11-07T05:12:39Z",
+    "edtf:inception": "2024-11-07T04:02:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619197,
     "lbl:longitude": -122.384496,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:base_flight_id": "20241107-D-ACA-4292",
@@ -39,6 +43,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N35236",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +58,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84178525",
+      "swim:gufi": "KO00944500"
+    },
     "wof:country": "US",
     "wof:created": 1731083868,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -88,13 +97,14 @@
     ],
     "wof:id": 1947220423,
     "wof:involves": [
+      1159283597,
+      1159289871,
       102528997,
       102527513,
       1159285413,
-      1914600923,
-      1159283597
+      1914600923
     ],
-    "wof:lastmodified": 1731083868,
+    "wof:lastmodified": 1731084009,
     "wof:name": "UA644 (SFO-SAN)",
     "wof:parent_id": 1914600923,
     "wof:placetype": "custom",

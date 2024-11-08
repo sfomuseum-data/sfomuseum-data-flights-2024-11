@@ -2,10 +2,12 @@
   "id": 1947219851,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-08",
+    "date:cessation_upper": "2024-11-08",
     "date:inception_lower": "2024-11-07",
     "date:inception_upper": "2024-11-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-07",
+    "edtf:cessation": "2024-11-08T00:35:28Z",
+    "edtf:inception": "2024-11-07T08:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-11-07",
@@ -48,6 +50,9 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84181113"
+    },
     "wof:country": "US",
     "wof:created": 1731083718,
     "wof:geomhash": "998e7b0d931c2ad5e41dcc1541aaab60",
@@ -88,7 +93,7 @@
       1159285413,
       1914600853
     ],
-    "wof:lastmodified": 1731083718,
+    "wof:lastmodified": 1731084051,
     "wof:name": "UA1 (SFO-SIN)",
     "wof:parent_id": 1914600853,
     "wof:placetype": "custom",

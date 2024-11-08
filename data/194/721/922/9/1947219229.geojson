@@ -2,10 +2,12 @@
   "id": 1947219229,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-08",
+    "date:cessation_upper": "2024-11-08",
     "date:inception_lower": "2024-11-07",
     "date:inception_upper": "2024-11-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-07",
+    "edtf:cessation": "2024-11-08T01:27:36Z",
+    "edtf:inception": "2024-11-07T20:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "MX",
     "flysfo:date": "2024-11-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.5640565,
     "geom:longitude": -99.852697,
     "iata:airline": "MX",
+    "icao:aircraft": "BCS3",
     "icao:airline": "MXY",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1763552131,
     "sfomuseum:arrival_id": 102532729,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N232BZ",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +57,9 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84228808"
+    },
     "wof:country": "US",
     "wof:created": 1731083557,
     "wof:geomhash": "d9bef38025bc12b7d28d0c23b4ba0650",
@@ -86,9 +98,10 @@
       102532729,
       102527513,
       1763552131,
-      1914601353
+      1914601353,
+      1813375783
     ],
-    "wof:lastmodified": 1731083557,
+    "wof:lastmodified": 1731084035,
     "wof:name": "MX237 (SFO-RIC)",
     "wof:parent_id": 1914601353,
     "wof:placetype": "custom",

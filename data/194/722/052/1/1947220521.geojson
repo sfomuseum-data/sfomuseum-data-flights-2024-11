@@ -2,10 +2,12 @@
   "id": 1947220521,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-08",
+    "date:cessation_upper": "2024-11-08",
     "date:inception_lower": "2024-11-07",
     "date:inception_upper": "2024-11-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-07",
+    "edtf:cessation": "2024-11-08T08:24:35Z",
+    "edtf:inception": "2024-11-07T22:06:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -59.914066999999996,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B788",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617906,
     "lbl:longitude": -122.390944,
+    "sfomuseum:aircraft_id": 1159289995,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102544459,
     "sfomuseum:base_flight_id": "20241107-D-ACA-4045",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N26906",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84236062",
+      "swim:gufi": "KO62971500"
+    },
     "wof:country": "US",
     "wof:created": 1731083890,
     "wof:geomhash": "ad7dd7ece479a882a3440fb19be6ff4c",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947220521,
     "wof:involves": [
-      102544459,
-      102527513,
       1159285413,
       1914601067,
-      1159283597
+      1159283597,
+      1159289995,
+      102544459,
+      102527513
     ],
-    "wof:lastmodified": 1731083890,
+    "wof:lastmodified": 1731084011,
     "wof:name": "UA990 (SFO-CDG)",
     "wof:parent_id": 1914601067,
     "wof:placetype": "custom",
