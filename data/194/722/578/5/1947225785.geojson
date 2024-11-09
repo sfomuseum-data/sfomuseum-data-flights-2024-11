@@ -2,10 +2,12 @@
   "id": 1947225785,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-08",
+    "date:cessation_upper": "2024-11-08",
     "date:inception_lower": "2024-11-08",
     "date:inception_upper": "2024-11-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-08",
+    "edtf:cessation": "2024-11-08T05:25:00Z",
+    "edtf:inception": "2024-11-08T00:33:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
     "iata:base_airline": "",
+    "icao:aircraft": "BCS3",
     "icao:airline": "ACA",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618139,
     "lbl:longitude": -122.381258,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102555091,
     "sfomuseum:base_flight_id": "20241108-D-ANZ-4734",
@@ -39,6 +43,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "CGNBE",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +58,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84247742",
+      "swim:gufi": "KO78312500"
+    },
     "wof:country": "US",
     "wof:created": 1731169353,
     "wof:geomhash": "1a30ef2f5f82135186aeb20f0187ac62",
@@ -88,13 +97,14 @@
     ],
     "wof:id": 1947225785,
     "wof:involves": [
+      1813375783,
       102555091,
       102527513,
       1159283597,
       1914601371,
       1159283697
     ],
-    "wof:lastmodified": 1731169353,
+    "wof:lastmodified": 1731170296,
     "wof:name": "AC742 (SFO-YYZ)",
     "wof:parent_id": 1914601371,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1947224357,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-08",
+    "date:cessation_upper": "2024-11-08",
     "date:inception_lower": "2024-11-08",
     "date:inception_upper": "2024-11-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-08",
+    "edtf:cessation": "2024-11-08T04:51:00Z",
+    "edtf:inception": "2024-11-08T04:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -121.104038,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241108-A-ACA-4351",
@@ -39,6 +43,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N878UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +58,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84256448",
+      "swim:gufi": "KL02059600"
+    },
     "wof:country": "US",
     "wof:created": 1731168977,
     "wof:geomhash": "aae625247f3652ef8a50cae9f49d2791",
@@ -88,13 +97,14 @@
     ],
     "wof:id": 1947224357,
     "wof:involves": [
+      1159289407,
       102527513,
       102527337,
       1159285413,
       1914601353,
       1159283597
     ],
-    "wof:lastmodified": 1731168977,
+    "wof:lastmodified": 1731170292,
     "wof:name": "UA2097 (SBA-SFO)",
     "wof:parent_id": 1914601353,
     "wof:placetype": "custom",

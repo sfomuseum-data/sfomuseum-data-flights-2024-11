@@ -2,10 +2,12 @@
   "id": 1947224269,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-08",
+    "date:cessation_upper": "2024-11-08",
     "date:inception_lower": "2024-11-08",
     "date:inception_upper": "2024-11-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-08",
+    "edtf:cessation": "2024-11-08T05:01:54Z",
+    "edtf:inception": "2024-11-08T00:33:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84248455"
+    },
     "wof:country": "US",
     "wof:created": 1731168953,
     "wof:geomhash": "d5ad4a83d3d679d1b3fe86e419b08d84",
@@ -94,7 +99,7 @@
       1914601355,
       1159283597
     ],
-    "wof:lastmodified": 1731168953,
+    "wof:lastmodified": 1731170292,
     "wof:name": "UA1722 (KOA-SFO)",
     "wof:parent_id": 1914601355,
     "wof:placetype": "custom",

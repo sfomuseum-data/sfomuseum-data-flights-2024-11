@@ -2,10 +2,12 @@
   "id": 1947224707,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-08",
+    "date:cessation_upper": "2024-11-08",
     "date:inception_lower": "2024-11-08",
     "date:inception_upper": "2024-11-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-08",
+    "edtf:cessation": "2024-11-08T01:55:00Z",
+    "edtf:inception": "2024-11-08T00:33:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.484166,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241108-A-ACA-3342",
@@ -39,6 +43,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N67350",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +58,9 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84247299"
+    },
     "wof:country": "US",
     "wof:created": 1731169073,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1947224707,
     "wof:involves": [
+      1159283597,
+      1528104575,
       102527513,
       102532251,
       1159285413,
-      1914601359,
-      1159283597
+      1914601359
     ],
-    "wof:lastmodified": 1731169073,
+    "wof:lastmodified": 1731170293,
     "wof:name": "UA644 (PDX-SFO)",
     "wof:parent_id": 1914601359,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1947228915,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-08",
+    "date:cessation_upper": "2024-11-08",
     "date:inception_lower": "2024-11-08",
     "date:inception_upper": "2024-11-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-08",
+    "edtf:cessation": "2024-11-08T06:42:00Z",
+    "edtf:inception": "2024-11-08T02:55:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617921,
     "lbl:longitude": -122.38181,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:base_flight_id": "20241108-D-ACA-5166",
@@ -39,6 +43,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N37413",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +58,9 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84255312"
+    },
     "wof:country": "US",
     "wof:created": 1731170152,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1947228915,
     "wof:involves": [
+      1377564285,
       102533631,
       102527513,
       1159285413,
       1914601379,
       1159283597
     ],
-    "wof:lastmodified": 1731170152,
+    "wof:lastmodified": 1731170304,
     "wof:name": "UA737 (SFO-ORD)",
     "wof:parent_id": 1914601379,
     "wof:placetype": "custom",

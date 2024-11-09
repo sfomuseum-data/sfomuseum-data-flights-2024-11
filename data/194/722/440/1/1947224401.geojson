@@ -2,10 +2,12 @@
   "id": 1947224401,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-08",
+    "date:cessation_upper": "2024-11-08",
     "date:inception_lower": "2024-11-08",
     "date:inception_upper": "2024-11-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-08",
+    "edtf:cessation": "2024-11-08T06:26:00Z",
+    "edtf:inception": "2024-11-08T02:34:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241108-A-ACA-5255",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
+    "swim:tail_number": "N210UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,9 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84253180"
+    },
     "wof:country": "US",
     "wof:created": 1731168989,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -88,13 +99,14 @@
     ],
     "wof:id": 1947224401,
     "wof:involves": [
+      1159283597,
+      1159289985,
       102527513,
       102533631,
       1159285413,
-      1914600871,
-      1159283597
+      1914600871
     ],
-    "wof:lastmodified": 1731168989,
+    "wof:lastmodified": 1731170309,
     "wof:name": "UA2289 (ORD-SFO)",
     "wof:parent_id": 1914600871,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1947224305,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-08",
+    "date:cessation_upper": "2024-11-08",
     "date:inception_lower": "2024-11-08",
     "date:inception_upper": "2024-11-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-08",
+    "edtf:cessation": "2024-11-08T02:27:27Z",
+    "edtf:inception": "2024-11-08T00:52:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "CMP",
     "lbl:latitude": 37.619197,
     "lbl:longitude": -122.384496,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241108-A-CMP-2327",
@@ -39,6 +43,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N27213",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +58,9 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84248467"
+    },
     "wof:country": "US",
     "wof:created": 1731168963,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -92,9 +100,10 @@
       102533269,
       1159285413,
       1914600923,
-      1159284211
+      1159284211,
+      1159289871
     ],
-    "wof:lastmodified": 1731168963,
+    "wof:lastmodified": 1731170292,
     "wof:name": "UA1914 (SEA-SFO)",
     "wof:parent_id": 1914600923,
     "wof:placetype": "custom",

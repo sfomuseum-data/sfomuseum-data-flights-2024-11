@@ -2,10 +2,12 @@
   "id": 1947223927,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-08",
+    "date:cessation_upper": "2024-11-08",
     "date:inception_lower": "2024-11-08",
     "date:inception_upper": "2024-11-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-08",
+    "edtf:cessation": "2024-11-08T02:32:40Z",
+    "edtf:inception": "2024-11-08T01:40:40Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2024-11-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N8862Q",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +53,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84250287",
+      "swim:gufi": "KL83209500"
+    },
     "wof:country": "US",
     "wof:created": 1731168861,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -83,12 +92,13 @@
     ],
     "wof:id": 1947223927,
     "wof:involves": [
+      1528104575,
       102527513,
       102533795,
       1159285591,
       1914601207
     ],
-    "wof:lastmodified": 1731168861,
+    "wof:lastmodified": 1731170291,
     "wof:name": "WN1658 (LAX-SFO)",
     "wof:parent_id": 1914601207,
     "wof:placetype": "custom",

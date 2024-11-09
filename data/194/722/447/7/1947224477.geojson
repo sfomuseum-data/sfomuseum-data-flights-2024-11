@@ -2,10 +2,12 @@
   "id": 1947224477,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-08",
+    "date:cessation_upper": "2024-11-08",
     "date:inception_lower": "2024-11-08",
     "date:inception_upper": "2024-11-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-08",
+    "edtf:cessation": "2024-11-08T04:51:56Z",
+    "edtf:inception": "2024-11-08T00:34:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -102.86132599999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "AAR",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241108-A-AAR-9538",
@@ -39,6 +43,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N837UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +58,9 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84248161"
+    },
     "wof:country": "US",
     "wof:created": 1731169011,
     "wof:geomhash": "a23858bb4e93419105e139a22bd92749",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1947224477,
     "wof:involves": [
-      102527513,
       102525635,
       1159285413,
       1914601363,
-      1159283917
+      1159283917,
+      1159289407,
+      102527513
     ],
-    "wof:lastmodified": 1731169011,
+    "wof:lastmodified": 1731170292,
     "wof:name": "UA2866 (DTW-SFO)",
     "wof:parent_id": 1914601363,
     "wof:placetype": "custom",
