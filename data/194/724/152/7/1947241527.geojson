@@ -1,0 +1,109 @@
+{
+  "id": 1947241527,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2024-11-10",
+    "date:inception_upper": "2024-11-10",
+    "edtf:cessation": "",
+    "edtf:inception": "2024-11-10",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "AA",
+    "flysfo:date": "2024-11-10",
+    "flysfo:estimated_timestamp": 1731259020,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "AA429",
+    "flysfo:gate": "B27",
+    "flysfo:journey": "SFO-CLT",
+    "flysfo:scheduled_timestamp": 1731258000,
+    "flysfo:timestamp": 1731259020,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,35.220744,-80.942777,37.617990",
+    "geom:latitude": 36.419367,
+    "geom:longitude": -101.65686,
+    "iata:airline": "AA",
+    "icao:airline": "AAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283849,
+    "sfomuseum:arrival_id": 102528659,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20241110-D-AAL-429",
+    "sfomuseum:flight_number": [
+      "AAL429",
+      "AA429"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [
+      1914600839,
+      102527513,
+      1914601199,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1914601235,
+      1914601197,
+      102085387
+    ],
+    "wof:country": "US",
+    "wof:created": 1731342023,
+    "wof:geomhash": "6d7202e034534315a50103622977ef57",
+    "wof:hierarchy": [
+      {
+        "building_id": 1914600839,
+        "campus_id": 102527513,
+        "concourse_id": 1914601199,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102087579,
+        "custom_id": 1947241527,
+        "flight_id": 1947241527,
+        "locality_id": 85922583,
+        "postalcode_id": 554784711,
+        "region_id": 85688637,
+        "venue_id": 1914601235,
+        "wing_id": 1914601197
+      },
+      {
+        "building_id": 1914600839,
+        "campus_id": 102527513,
+        "concourse_id": 1914601199,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102085387,
+        "custom_id": 1947241527,
+        "flight_id": 1947241527,
+        "region_id": 85688637,
+        "venue_id": 1914601235,
+        "wing_id": 1914601197
+      }
+    ],
+    "wof:id": 1947241527,
+    "wof:involves": [
+      102528659,
+      102527513,
+      1159283849,
+      1914601235
+    ],
+    "wof:lastmodified": 1731342023,
+    "wof:name": "AA429 (SFO-CLT)",
+    "wof:parent_id": 1914601235,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2024-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    35.220744,
+    -80.942777,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-80.942777,35.220744]],"type":"MultiPoint"}
+}
