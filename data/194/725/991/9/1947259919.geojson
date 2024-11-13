@@ -2,10 +2,12 @@
   "id": 1947259919,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-13",
+    "date:cessation_upper": "2024-11-13",
     "date:inception_lower": "2024-11-12",
     "date:inception_upper": "2024-11-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-12",
+    "edtf:cessation": "2024-11-13T00:03:27Z",
+    "edtf:inception": "2024-11-12T20:54:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "DAL",
     "icao:base_airline": "KAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102531131,
     "sfomuseum:base_flight_id": "20241112-D-KAL-6739",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N309DN",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84614222",
+      "swim:gufi": "KO71273300"
+    },
     "wof:country": "US",
     "wof:created": 1731516166,
     "wof:geomhash": "bbdc3c5edf2b2678c807f6144214d82c",
@@ -92,9 +105,10 @@
       102527513,
       1159284261,
       1914601433,
-      1159284625
+      1159284625,
+      1159289411
     ],
-    "wof:lastmodified": 1731516166,
+    "wof:lastmodified": 1731516812,
     "wof:name": "DL2078 (SFO-MSP)",
     "wof:parent_id": 1914601433,
     "wof:placetype": "custom",

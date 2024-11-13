@@ -2,10 +2,12 @@
   "id": 1947257101,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-12",
+    "date:cessation_upper": "2024-11-12",
     "date:inception_lower": "2024-11-12",
     "date:inception_upper": "2024-11-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-12",
+    "edtf:cessation": "2024-11-12T19:51:00Z",
+    "edtf:inception": "2024-11-12T18:52:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2024-11-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N8861Q",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +56,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84601236",
+      "swim:gufi": "KL57792300"
+    },
     "wof:country": "US",
     "wof:created": 1731515457,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 1947257101,
     "wof:involves": [
-      102527513,
-      102533795,
       1159285591,
-      1914601207
+      1914601207,
+      1528104575,
+      102527513,
+      102533795
     ],
-    "wof:lastmodified": 1731515457,
+    "wof:lastmodified": 1731516813,
     "wof:name": "WN2746 (LAX-SFO)",
     "wof:parent_id": 1914601207,
     "wof:placetype": "custom",
