@@ -2,10 +2,12 @@
   "id": 1947265465,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-13",
+    "date:cessation_upper": "2024-11-13",
     "date:inception_lower": "2024-11-13",
     "date:inception_upper": "2024-11-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-13",
+    "edtf:cessation": "2024-11-13T15:34:00Z",
+    "edtf:inception": "2024-11-13T14:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241113-A-AVA-2270",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N852UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84656471",
+      "swim:gufi": "KS44111400"
+    },
     "wof:country": "US",
     "wof:created": 1731600927,
     "wof:geomhash": "68b06bbd791163721a20ab955d143e55",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947265465,
     "wof:involves": [
-      102527513,
       102533927,
       1159285413,
       1914600851,
-      1159285749
+      1159285749,
+      1159289407,
+      102527513
     ],
-    "wof:lastmodified": 1731600927,
+    "wof:lastmodified": 1731602102,
     "wof:name": "UA2259 (EUG-SFO)",
     "wof:parent_id": 1914600851,
     "wof:placetype": "custom",

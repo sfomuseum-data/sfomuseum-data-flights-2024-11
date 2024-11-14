@@ -2,10 +2,12 @@
   "id": 1947265561,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-13",
+    "date:cessation_upper": "2024-11-13",
     "date:inception_lower": "2024-11-13",
     "date:inception_upper": "2024-11-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-13",
+    "edtf:cessation": "2024-11-13T17:36:00Z",
+    "edtf:inception": "2024-11-13T09:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-11-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.5860375,
     "geom:longitude": 8.702347499999995,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102541591,
@@ -34,7 +38,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "84651573"
+    },
     "wof:country": "US",
     "wof:created": 1731600949,
     "wof:geomhash": "99c2bdbe61e95eb26a51b43b0c172358",
@@ -46,12 +56,12 @@
     ],
     "wof:id": 1947265561,
     "wof:involves": [
+      1159289985,
       102527513,
       102541591,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1731600949,
+    "wof:lastmodified": 1731602137,
     "wof:name": "UA3901 (HND-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1947269481,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-14",
+    "date:cessation_upper": "2024-11-14",
     "date:inception_lower": "2024-11-13",
     "date:inception_upper": "2024-11-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-13",
+    "edtf:cessation": "2024-11-14T02:17:00Z",
+    "edtf:inception": "2024-11-13T21:22:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "icao:base_airline": "CCA",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:base_flight_id": "20241113-D-CCA-7307",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
+    "swim:tail_number": "N12116",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,9 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84694059"
+    },
     "wof:country": "US",
     "wof:created": 1731601907,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -88,13 +99,14 @@
     ],
     "wof:id": 1947269481,
     "wof:involves": [
+      1159283605,
+      1159289939,
       102530741,
       102527513,
       1159285413,
-      1914600847,
-      1159283605
+      1914600847
     ],
-    "wof:lastmodified": 1731601907,
+    "wof:lastmodified": 1731602142,
     "wof:name": "UA354 (SFO-BOS)",
     "wof:parent_id": 1914600847,
     "wof:placetype": "custom",

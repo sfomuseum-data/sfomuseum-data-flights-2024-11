@@ -2,10 +2,12 @@
   "id": 1947263401,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-13",
+    "date:cessation_upper": "2024-11-13",
     "date:inception_lower": "2024-11-13",
     "date:inception_upper": "2024-11-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-13",
+    "edtf:cessation": "2024-11-13T18:48:01Z",
+    "edtf:inception": "2024-11-13T17:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241113-A-AAL-9410",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N924AK",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84670810"
+    },
     "wof:country": "US",
     "wof:created": 1731600413,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -88,13 +99,14 @@
     ],
     "wof:id": 1947263401,
     "wof:involves": [
-      102527513,
       102533269,
       1159283813,
       1914601245,
-      1159283849
+      1159283849,
+      1528104577,
+      102527513
     ],
-    "wof:lastmodified": 1731600413,
+    "wof:lastmodified": 1731602134,
     "wof:name": "AS1132 (SEA-SFO)",
     "wof:parent_id": 1914601245,
     "wof:placetype": "custom",

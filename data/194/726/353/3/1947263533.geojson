@@ -2,10 +2,12 @@
   "id": 1947263533,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-14",
+    "date:cessation_upper": "2024-11-14",
     "date:inception_lower": "2024-11-13",
     "date:inception_upper": "2024-11-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-13",
+    "edtf:cessation": "2024-11-14T00:05:24Z",
+    "edtf:inception": "2024-11-13T19:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2024-11-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.256470999999998,
     "geom:longitude": -139.40440999999998,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532929,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +56,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84722020",
+      "swim:gufi": "KO80839400"
+    },
     "wof:country": "US",
     "wof:created": 1731600445,
     "wof:geomhash": "e4ae4c60ed0a76df38dbcfaaa5dd6a55",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 1947263533,
     "wof:involves": [
-      102527513,
       102532929,
       1159283813,
-      1914601213
+      1914601213,
+      1528104577,
+      102527513
     ],
-    "wof:lastmodified": 1731600445,
+    "wof:lastmodified": 1731602092,
     "wof:name": "AS9233 (OGG-SFO)",
     "wof:parent_id": 1914601213,
     "wof:placetype": "custom",

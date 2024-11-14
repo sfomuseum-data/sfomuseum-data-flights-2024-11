@@ -2,10 +2,12 @@
   "id": 1947265457,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-13",
+    "date:cessation_upper": "2024-11-13",
     "date:inception_lower": "2024-11-13",
     "date:inception_upper": "2024-11-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-13",
+    "edtf:cessation": "2024-11-13T16:55:00Z",
+    "edtf:inception": "2024-11-13T12:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-11-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.8002995,
     "geom:longitude": -106.31638749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530009,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N443UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +57,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84650010",
+      "swim:gufi": "KH33000400"
+    },
     "wof:country": "US",
     "wof:created": 1731600925,
     "wof:geomhash": "a7e835886f555fd347028edc152f9d8c",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947265457,
     "wof:involves": [
+      1159292085,
       102527513,
       102530009,
       1159285413,
       1914601351
     ],
-    "wof:lastmodified": 1731600925,
+    "wof:lastmodified": 1731602103,
     "wof:name": "UA2231 (MSY-SFO)",
     "wof:parent_id": 1914601351,
     "wof:placetype": "custom",

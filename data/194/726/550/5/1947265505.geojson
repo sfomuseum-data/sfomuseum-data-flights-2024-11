@@ -2,10 +2,12 @@
   "id": 1947265505,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-13",
+    "date:cessation_upper": "2024-11-13",
     "date:inception_lower": "2024-11-13",
     "date:inception_upper": "2024-11-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-13",
+    "edtf:cessation": "2024-11-13T17:19:00Z",
+    "edtf:inception": "2024-11-13T13:14:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -106.3692875,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241113-A-ANZ-9700",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N427UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84652907",
+      "swim:gufi": "KK35212400"
+    },
     "wof:country": "US",
     "wof:created": 1731600936,
     "wof:geomhash": "5aed0915f9f8845326df52b0d348a4b7",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947265505,
     "wof:involves": [
+      1159283697,
+      1159292085,
       102527513,
       1746879059,
       1159285413,
-      1914600875,
-      1159283697
+      1914600875
     ],
-    "wof:lastmodified": 1731600936,
+    "wof:lastmodified": 1731602103,
     "wof:name": "UA246 (STL-SFO)",
     "wof:parent_id": 1914600875,
     "wof:placetype": "custom",

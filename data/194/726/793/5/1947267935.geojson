@@ -2,10 +2,12 @@
   "id": 1947267935,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-11-13",
-    "date:inception_upper": "2024-11-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-13",
+    "date:cessation_lower": "2024-11-14",
+    "date:cessation_upper": "2024-11-14",
+    "date:inception_lower": "2024-11-14",
+    "date:inception_upper": "2024-11-14",
+    "edtf:cessation": "2024-11-14T10:20:00Z",
+    "edtf:inception": "2024-11-14T05:27:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20241113-D-AMX-4490",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N717TW",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,9 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84640897"
+    },
     "wof:country": "US",
     "wof:created": 1731601525,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -92,9 +104,10 @@
       102527513,
       1159284261,
       1914601427,
-      1159283539
+      1159283539,
+      1159289939
     ],
-    "wof:lastmodified": 1731601525,
+    "wof:lastmodified": 1731602118,
     "wof:name": "DL2878 (SFO-JFK)",
     "wof:parent_id": 1914601427,
     "wof:placetype": "custom",
