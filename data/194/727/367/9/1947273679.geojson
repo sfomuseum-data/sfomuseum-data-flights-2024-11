@@ -2,10 +2,12 @@
   "id": 1947273679,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-14",
+    "date:cessation_upper": "2024-11-14",
     "date:inception_lower": "2024-11-14",
     "date:inception_upper": "2024-11-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-14",
+    "edtf:cessation": "2024-11-14T15:35:00Z",
+    "edtf:inception": "2024-11-14T13:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -114.4957645,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.616987,
     "lbl:longitude": -122.382479,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241114-A-ACA-4033",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N477UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84736118",
+      "swim:gufi": "KA33407500"
+    },
     "wof:country": "US",
     "wof:created": 1731687562,
     "wof:geomhash": "8fe6791c85dc44fbddffd72416ea0024",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947273679,
     "wof:involves": [
-      102527513,
       102529173,
       1159285413,
       1914601361,
-      1159283597
+      1159283597,
+      1159292085,
+      102527513
     ],
-    "wof:lastmodified": 1731687562,
+    "wof:lastmodified": 1731689266,
     "wof:name": "UA1763 (ABQ-SFO)",
     "wof:parent_id": 1914601361,
     "wof:placetype": "custom",

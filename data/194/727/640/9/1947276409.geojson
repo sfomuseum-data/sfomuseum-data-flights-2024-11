@@ -2,10 +2,12 @@
   "id": 1947276409,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-11-14",
-    "date:inception_upper": "2024-11-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-14",
+    "date:cessation_lower": "2024-11-15",
+    "date:cessation_upper": "2024-11-15",
+    "date:inception_lower": "2024-11-15",
+    "date:inception_upper": "2024-11-15",
+    "edtf:cessation": "2024-11-15T10:01:13Z",
+    "edtf:inception": "2024-11-15T03:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "CM",
     "flysfo:date": "2024-11-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 23.344675,
     "geom:longitude": -100.87722099999999,
     "iata:airline": "CM",
+    "icao:aircraft": "B39M",
     "icao:airline": "CMP",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159284211,
     "sfomuseum:arrival_id": 102547051,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "HP9914",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +57,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84719221"
+    },
     "wof:country": "US",
     "wof:created": 1731688407,
     "wof:geomhash": "a1b63305ba93684d4b5beab1220ffb8e",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 1947276409,
     "wof:involves": [
+      1914601019,
+      1528104577,
       102547051,
       102527513,
-      1159284211,
-      1914601019
+      1159284211
     ],
-    "wof:lastmodified": 1731688407,
+    "wof:lastmodified": 1731689276,
     "wof:name": "CM409 (SFO-PTY)",
     "wof:parent_id": 1914601019,
     "wof:placetype": "custom",

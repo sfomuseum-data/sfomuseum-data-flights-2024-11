@@ -2,10 +2,12 @@
   "id": 1947278543,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-14",
+    "date:cessation_upper": "2024-11-14",
     "date:inception_lower": "2024-11-14",
     "date:inception_upper": "2024-11-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-14",
+    "edtf:cessation": "2024-11-14T22:29:28Z",
+    "edtf:inception": "2024-11-14T19:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-11-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.180931,
     "geom:longitude": -106.3692875,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 1746879059,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N17279",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "84767527",
+      "swim:gufi": "KO56534500"
+    },
     "wof:country": "US",
     "wof:created": 1731689096,
     "wof:geomhash": "17371a5d27e54a99ca50752d2b6a5e79",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1947278543,
     "wof:involves": [
+      1528104575,
       1746879059,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1731689096,
+    "wof:lastmodified": 1731689287,
     "wof:name": "UA8198 (SFO-STL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

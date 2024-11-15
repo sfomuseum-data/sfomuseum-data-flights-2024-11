@@ -2,10 +2,12 @@
   "id": 1947278563,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-11-14",
-    "date:inception_upper": "2024-11-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-14",
+    "date:cessation_lower": "2024-11-15",
+    "date:cessation_upper": "2024-11-15",
+    "date:inception_lower": "2024-11-15",
+    "date:inception_upper": "2024-11-15",
+    "edtf:cessation": "2024-11-15T21:16:38Z",
+    "edtf:inception": "2024-11-15T07:56:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-11-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.348278,
     "geom:longitude": -0.5688954999999964,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617906,
     "lbl:longitude": -122.390944,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102551487,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N2639U",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +57,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84724055",
+      "swim:gufi": "KO12348600"
+    },
     "wof:country": "US",
     "wof:created": 1731689103,
     "wof:geomhash": "ec4a8fe4d0e09d37ae50bf109072b003",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947278563,
     "wof:involves": [
+      1159289993,
       102551487,
       102527513,
       1159285413,
       1914601067
     ],
-    "wof:lastmodified": 1731689103,
+    "wof:lastmodified": 1731689287,
     "wof:name": "UA853 (SFO-TPE)",
     "wof:parent_id": 1914601067,
     "wof:placetype": "custom",

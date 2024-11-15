@@ -2,10 +2,12 @@
   "id": 1947274837,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-14",
+    "date:cessation_upper": "2024-11-14",
     "date:inception_lower": "2024-11-14",
     "date:inception_upper": "2024-11-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-14",
+    "edtf:cessation": "2024-11-14T20:15:00Z",
+    "edtf:inception": "2024-11-14T18:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:date": "2024-11-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "AA",
+    "icao:aircraft": "A319",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N744P",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +57,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84812654",
+      "swim:gufi": "KO60910500"
+    },
     "wof:country": "US",
     "wof:created": 1731687912,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947274837,
     "wof:involves": [
+      1159289407,
       102526751,
       102527513,
       1159283849,
       1914601251
     ],
-    "wof:lastmodified": 1731687912,
+    "wof:lastmodified": 1731689271,
     "wof:name": "AA9782 (SFO-PHX)",
     "wof:parent_id": 1914601251,
     "wof:placetype": "custom",
