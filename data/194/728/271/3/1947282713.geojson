@@ -2,10 +2,12 @@
   "id": 1947282713,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-15",
+    "date:cessation_upper": "2024-11-15",
     "date:inception_lower": "2024-11-15",
     "date:inception_upper": "2024-11-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-15",
+    "edtf:cessation": "2024-11-15T17:30:00Z",
+    "edtf:inception": "2024-11-15T12:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -104.324809,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241115-A-ANZ-2728",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N833UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84821427",
+      "swim:gufi": "KI31661600"
+    },
     "wof:country": "US",
     "wof:created": 1731773767,
     "wof:geomhash": "c95405ad82a47404b222d64c163ad7d9",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947282713,
     "wof:involves": [
+      1159283697,
+      1159289407,
       102527513,
       102534155,
       1159285413,
-      1914601375,
-      1159283697
+      1914601375
     ],
-    "wof:lastmodified": 1731773767,
+    "wof:lastmodified": 1731775009,
     "wof:name": "UA500 (IND-SFO)",
     "wof:parent_id": 1914601375,
     "wof:placetype": "custom",

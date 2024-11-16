@@ -2,10 +2,12 @@
   "id": 1947285121,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-11-15",
-    "date:inception_upper": "2024-11-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-15",
+    "date:cessation_lower": "2024-11-16",
+    "date:cessation_upper": "2024-11-16",
+    "date:inception_lower": "2024-11-16",
+    "date:inception_upper": "2024-11-16",
+    "edtf:cessation": "2024-11-16T03:14:05Z",
+    "edtf:inception": "2024-11-16T00:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2024-11-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102531131,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N814DN",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +57,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84795695",
+      "swim:gufi": "KO84061600"
+    },
     "wof:country": "US",
     "wof:created": 1731774362,
     "wof:geomhash": "bbdc3c5edf2b2678c807f6144214d82c",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947285121,
     "wof:involves": [
+      1914601427,
+      1377564285,
       102531131,
       102527513,
-      1159284261,
-      1914601427
+      1159284261
     ],
-    "wof:lastmodified": 1731774362,
+    "wof:lastmodified": 1731775049,
     "wof:name": "DL2159 (SFO-MSP)",
     "wof:parent_id": 1914601427,
     "wof:placetype": "custom",

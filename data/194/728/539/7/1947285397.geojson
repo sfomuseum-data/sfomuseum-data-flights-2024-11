@@ -2,10 +2,12 @@
   "id": 1947285397,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-15",
+    "date:cessation_upper": "2024-11-15",
     "date:inception_lower": "2024-11-15",
     "date:inception_upper": "2024-11-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-15",
+    "edtf:cessation": "2024-11-15T02:32:00Z",
+    "edtf:inception": "2024-11-15T01:16:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2024-11-15",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "84799007"
+    },
     "wof:country": "US",
     "wof:created": 1731774432,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -51,7 +56,7 @@
       1159284401,
       -1
     ],
-    "wof:lastmodified": 1731774432,
+    "wof:lastmodified": 1731775023,
     "wof:name": "F93394 (SFO-SLC)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

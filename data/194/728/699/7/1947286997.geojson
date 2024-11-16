@@ -2,10 +2,12 @@
   "id": 1947286997,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-11-15",
-    "date:inception_upper": "2024-11-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-15",
+    "date:cessation_lower": "2024-11-16",
+    "date:cessation_upper": "2024-11-16",
+    "date:inception_lower": "2024-11-16",
+    "date:inception_upper": "2024-11-16",
+    "edtf:cessation": "2024-11-16T02:12:31Z",
+    "edtf:inception": "2024-11-16T00:17:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "icao:base_airline": "AAR",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:base_flight_id": "20241115-D-AAR-6350",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N18112",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84795553",
+      "swim:gufi": "KO75607600"
+    },
     "wof:country": "US",
     "wof:created": 1731774832,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947286997,
     "wof:involves": [
+      1914600875,
+      1159283917,
+      1159289939,
       102531189,
       102527513,
-      1159285413,
-      1914600875,
-      1159283917
+      1159285413
     ],
-    "wof:lastmodified": 1731774832,
+    "wof:lastmodified": 1731775036,
     "wof:name": "UA566 (SFO-DEN)",
     "wof:parent_id": 1914600875,
     "wof:placetype": "custom",

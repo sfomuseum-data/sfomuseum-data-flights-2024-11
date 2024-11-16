@@ -2,10 +2,12 @@
   "id": 1947279149,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-11-15",
-    "date:inception_upper": "2024-11-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-15",
+    "date:cessation_lower": "2024-11-16",
+    "date:cessation_upper": "2024-11-16",
+    "date:inception_lower": "2024-11-16",
+    "date:inception_upper": "2024-11-16",
+    "edtf:cessation": "2024-11-16T04:59:00Z",
+    "edtf:inception": "2024-11-16T04:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241115-A-BAW-4809",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N817NN",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84806681"
+    },
     "wof:country": "US",
     "wof:created": 1731772893,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1947279149,
     "wof:involves": [
+      1159289871,
       102527513,
       102533795,
       1159283849,
       1914601229,
       1159284021
     ],
-    "wof:lastmodified": 1731772893,
+    "wof:lastmodified": 1731774995,
     "wof:name": "AA3207 (LAX-SFO)",
     "wof:parent_id": 1914601229,
     "wof:placetype": "custom",
