@@ -2,10 +2,12 @@
   "id": 1947293179,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-16",
+    "date:cessation_upper": "2024-11-16",
     "date:inception_lower": "2024-11-16",
     "date:inception_upper": "2024-11-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-16",
+    "edtf:cessation": "2024-11-16T19:48:00Z",
+    "edtf:inception": "2024-11-16T18:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "DAL",
     "icao:base_airline": "KLM",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:base_flight_id": "20241116-D-KLM-7101",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N352NW",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84936483",
+      "swim:gufi": "KO62581701"
+    },
     "wof:country": "US",
     "wof:created": 1731860698,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947293179,
     "wof:involves": [
+      1159284613,
+      1159292085,
       102527363,
       102527513,
       1159284261,
-      1914601423,
-      1159284613
+      1914601423
     ],
-    "wof:lastmodified": 1731860698,
+    "wof:lastmodified": 1731861262,
     "wof:name": "DL920 (SFO-SLC)",
     "wof:parent_id": 1914601423,
     "wof:placetype": "custom",

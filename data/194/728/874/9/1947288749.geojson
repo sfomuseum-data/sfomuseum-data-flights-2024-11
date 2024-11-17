@@ -2,10 +2,12 @@
   "id": 1947288749,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-17",
+    "date:cessation_upper": "2024-11-17",
     "date:inception_lower": "2024-11-16",
     "date:inception_upper": "2024-11-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-16",
+    "edtf:cessation": "2024-11-17T02:26:00Z",
+    "edtf:inception": "2024-11-16T22:27:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -111.9156105,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241116-A-HAL-6187",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84958489"
+    },
     "wof:country": "US",
     "wof:created": 1731859582,
     "wof:geomhash": "cbd37ba65d3a2508653294cff7fdec15",
@@ -88,13 +99,14 @@
     ],
     "wof:id": 1947288749,
     "wof:involves": [
+      1377564285,
       102527513,
       102536249,
       1159283813,
       1914601219,
       1159284489
     ],
-    "wof:lastmodified": 1731859582,
+    "wof:lastmodified": 1731861244,
     "wof:name": "AS1031 (ZIH-SFO)",
     "wof:parent_id": 1914601219,
     "wof:placetype": "custom",

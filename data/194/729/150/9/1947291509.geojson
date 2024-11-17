@@ -2,10 +2,12 @@
   "id": 1947291509,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-16",
+    "date:cessation_upper": "2024-11-16",
     "date:inception_lower": "2024-11-16",
     "date:inception_upper": "2024-11-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-16",
+    "edtf:cessation": "2024-11-16T23:32:00Z",
+    "edtf:inception": "2024-11-16T18:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "FIN",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20241116-D-FIN-5738",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N106NN",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84937581",
+      "swim:gufi": "KO61818700"
+    },
     "wof:country": "US",
     "wof:created": 1731860270,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947291509,
     "wof:involves": [
+      1914601227,
+      1159284389,
+      1159289411,
       102534365,
       102527513,
-      1159283849,
-      1914601227,
-      1159284389
+      1159283849
     ],
-    "wof:lastmodified": 1731860270,
+    "wof:lastmodified": 1731861249,
     "wof:name": "AA16 (SFO-JFK)",
     "wof:parent_id": 1914601227,
     "wof:placetype": "custom",
