@@ -2,10 +2,12 @@
   "id": 1947301103,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-11-17",
-    "date:inception_upper": "2024-11-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-17",
+    "date:cessation_lower": "2024-11-18",
+    "date:cessation_upper": "2024-11-18",
+    "date:inception_lower": "2024-11-18",
+    "date:inception_upper": "2024-11-18",
+    "edtf:cessation": "2024-11-18T04:54:49Z",
+    "edtf:inception": "2024-11-18T01:54:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.006986,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:base_flight_id": "20241117-D-AAL-7593",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N270AK",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "84971929"
+    },
     "wof:country": "US",
     "wof:created": 1731947197,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1947301103,
     "wof:involves": [
+      1377564285,
       102521851,
       102527513,
       1159283813,
       1914601223,
       1159283849
     ],
-    "wof:lastmodified": 1731947197,
+    "wof:lastmodified": 1731948023,
     "wof:name": "AS534 (SFO-AUS)",
     "wof:parent_id": 1914601223,
     "wof:placetype": "custom",

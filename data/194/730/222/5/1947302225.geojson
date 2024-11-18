@@ -2,10 +2,12 @@
   "id": 1947302225,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-18",
+    "date:cessation_upper": "2024-11-18",
     "date:inception_lower": "2024-11-17",
     "date:inception_upper": "2024-11-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-17",
+    "edtf:cessation": "2024-11-18T01:16:10Z",
+    "edtf:inception": "2024-11-17T20:14:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "B6",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "B6",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "JBU",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:base_flight_id": "20241117-D-HAL-2498",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N2188J",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85020075",
+      "swim:gufi": "KO61692100"
+    },
     "wof:country": "US",
     "wof:created": 1731947500,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -92,9 +105,10 @@
       102527513,
       1159284583,
       1914601231,
-      1159284489
+      1159284489,
+      1377564297
     ],
-    "wof:lastmodified": 1731947500,
+    "wof:lastmodified": 1731948038,
     "wof:name": "B6534 (SFO-BOS)",
     "wof:parent_id": 1914601231,
     "wof:placetype": "custom",
