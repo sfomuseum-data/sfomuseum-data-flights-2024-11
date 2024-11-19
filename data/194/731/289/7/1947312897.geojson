@@ -2,10 +2,12 @@
   "id": 1947312897,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-18",
+    "date:cessation_upper": "2024-11-18",
     "date:inception_lower": "2024-11-18",
     "date:inception_upper": "2024-11-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-18",
+    "edtf:cessation": "2024-11-18T21:20:21Z",
+    "edtf:inception": "2024-11-18T05:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "SQ",
     "flysfo:date": "2024-11-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 19.482695,
     "geom:longitude": -9.197052,
     "iata:airline": "SQ",
+    "icao:aircraft": "A359",
     "icao:airline": "SIA",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1377564293,
     "sfomuseum:airline_id": 1159286259,
     "sfomuseum:arrival_id": 102551593,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "9VSMW",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +53,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85050213"
+    },
     "wof:country": "US",
     "wof:created": 1732033821,
     "wof:geomhash": "998e7b0d931c2ad5e41dcc1541aaab60",
@@ -86,9 +94,10 @@
       102551593,
       102527513,
       1159286259,
-      1914601065
+      1914601065,
+      1377564293
     ],
-    "wof:lastmodified": 1732033821,
+    "wof:lastmodified": 1732034204,
     "wof:name": "SQ33 (SFO-SIN)",
     "wof:parent_id": 1914601065,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1947313747,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-11-18",
-    "date:inception_upper": "2024-11-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-18",
+    "date:cessation_lower": "2024-11-19",
+    "date:cessation_upper": "2024-11-19",
+    "date:inception_lower": "2024-11-19",
+    "date:inception_upper": "2024-11-19",
+    "edtf:cessation": "2024-11-19T06:15:00Z",
+    "edtf:inception": "2024-11-19T02:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.620791,
     "lbl:longitude": -122.390014,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:base_flight_id": "20241118-D-ANZ-9304",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N14504",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85046831",
+      "swim:gufi": "KO84065200"
+    },
     "wof:country": "US",
     "wof:created": 1732034024,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947313747,
     "wof:involves": [
+      1377564297,
       102533631,
       102527513,
       1159285413,
       1914600867,
       1159283697
     ],
-    "wof:lastmodified": 1732034024,
+    "wof:lastmodified": 1732034217,
     "wof:name": "UA737 (SFO-ORD)",
     "wof:parent_id": 1914600867,
     "wof:placetype": "custom",

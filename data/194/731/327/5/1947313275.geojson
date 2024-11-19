@@ -2,10 +2,12 @@
   "id": 1947313275,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-11-18",
-    "date:inception_upper": "2024-11-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-18",
+    "date:cessation_lower": "2024-11-19",
+    "date:cessation_upper": "2024-11-19",
+    "date:inception_lower": "2024-11-19",
+    "date:inception_upper": "2024-11-19",
+    "edtf:cessation": "2024-11-19T11:38:00Z",
+    "edtf:inception": "2024-11-19T07:18:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -102.103286,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618678,
     "lbl:longitude": -122.385955,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534019,
     "sfomuseum:base_flight_id": "20241118-D-ANZ-9041",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N27274",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85051896",
+      "swim:gufi": "KO15771300"
+    },
     "wof:country": "US",
     "wof:created": 1732033912,
     "wof:geomhash": "f65caf98d316e6ee4a43fdc3ee688d07",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947313275,
     "wof:involves": [
+      1914600857,
+      1159283697,
+      1528104575,
       102534019,
       102527513,
-      1159285413,
-      1914600857,
-      1159283697
+      1159285413
     ],
-    "wof:lastmodified": 1732033912,
+    "wof:lastmodified": 1732034210,
     "wof:name": "UA1761 (SFO-CLE)",
     "wof:parent_id": 1914600857,
     "wof:placetype": "custom",
