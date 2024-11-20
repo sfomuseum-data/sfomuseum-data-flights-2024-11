@@ -2,10 +2,12 @@
   "id": 1947317747,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-19",
+    "date:cessation_upper": "2024-11-19",
     "date:inception_lower": "2024-11-19",
     "date:inception_upper": "2024-11-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-19",
+    "edtf:cessation": "2024-11-19T23:44:00Z",
+    "edtf:inception": "2024-11-19T12:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -57.5518295,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617615,
     "lbl:longitude": -122.390247,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241119-A-ACA-3783",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N2142U",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85144234",
+      "swim:gufi": "KU75218300"
+    },
     "wof:country": "US",
     "wof:created": 1732119408,
     "wof:geomhash": "ec6660f1f317e7fe021c7c410168f722",
@@ -92,9 +105,10 @@
       102549057,
       1159285413,
       1914601085,
-      1159283597
+      1159283597,
+      1159289993
     ],
-    "wof:lastmodified": 1732119408,
+    "wof:lastmodified": 1732120607,
     "wof:name": "UA59 (FRA-SFO)",
     "wof:parent_id": 1914601085,
     "wof:placetype": "custom",

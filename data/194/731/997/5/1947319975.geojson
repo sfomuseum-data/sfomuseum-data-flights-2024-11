@@ -2,10 +2,12 @@
   "id": 1947319975,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-20",
+    "date:cessation_upper": "2024-11-20",
     "date:inception_lower": "2024-11-19",
     "date:inception_upper": "2024-11-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-19",
+    "edtf:cessation": "2024-11-20T00:24:03Z",
+    "edtf:inception": "2024-11-19T20:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "icao:base_airline": "KAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:base_flight_id": "20241119-D-KAL-3644",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N718TW",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85183555",
+      "swim:gufi": "KO69001300"
+    },
     "wof:country": "US",
     "wof:created": 1732119989,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947319975,
     "wof:involves": [
+      1159289939,
       102526927,
       102527513,
       1159284261,
       1763588251,
       1159284625
     ],
-    "wof:lastmodified": 1732119989,
+    "wof:lastmodified": 1732120597,
     "wof:name": "DL998 (SFO-ATL)",
     "wof:parent_id": 1763588251,
     "wof:placetype": "custom",

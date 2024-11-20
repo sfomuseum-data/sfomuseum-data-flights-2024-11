@@ -2,10 +2,12 @@
   "id": 1947317821,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-11-19",
-    "date:inception_upper": "2024-11-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-19",
+    "date:cessation_lower": "2024-11-20",
+    "date:cessation_upper": "2024-11-20",
+    "date:inception_lower": "2024-11-20",
+    "date:inception_upper": "2024-11-20",
+    "edtf:cessation": "2024-11-20T14:34:00Z",
+    "edtf:inception": "2024-11-20T01:34:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 14.401222499999996,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241119-A-DLH-9328",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +60,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85123636",
+      "swim:gufi": "KO47802300"
+    },
     "wof:country": "US",
     "wof:created": 1732119428,
     "wof:geomhash": "f3115fe3d28c66ab4b94072923e0b1bb",
@@ -92,9 +103,10 @@
       102557783,
       1159285413,
       1914601069,
-      1159286015
+      1159286015,
+      1159289993
     ],
-    "wof:lastmodified": 1732119428,
+    "wof:lastmodified": 1732120607,
     "wof:name": "UA830 (SYD-SFO)",
     "wof:parent_id": 1914601069,
     "wof:placetype": "custom",

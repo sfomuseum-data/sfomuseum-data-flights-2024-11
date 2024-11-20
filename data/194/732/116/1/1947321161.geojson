@@ -2,10 +2,12 @@
   "id": 1947321161,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-11-19",
-    "date:inception_upper": "2024-11-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-19",
+    "date:cessation_lower": "2024-11-20",
+    "date:cessation_upper": "2024-11-20",
+    "date:inception_lower": "2024-11-20",
+    "date:inception_upper": "2024-11-20",
+    "edtf:cessation": "2024-11-20T05:25:00Z",
+    "edtf:inception": "2024-11-20T04:36:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.3621325,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 1746879083,
     "sfomuseum:base_flight_id": "20241119-D-ACA-4396",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N27205",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85131751",
+      "swim:gufi": "KO05477400"
+    },
     "wof:country": "US",
     "wof:created": 1732120293,
     "wof:geomhash": "5b5841a3ebf3c57d9843115edfb8ee6b",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947321161,
     "wof:involves": [
+      1159289871,
       1746879083,
       102527513,
       1159285413,
       1914600921,
       1159283597
     ],
-    "wof:lastmodified": 1732120293,
+    "wof:lastmodified": 1732120572,
     "wof:name": "UA1300 (SFO-BUR)",
     "wof:parent_id": 1914600921,
     "wof:placetype": "custom",
