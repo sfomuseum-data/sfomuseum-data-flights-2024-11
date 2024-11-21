@@ -2,10 +2,12 @@
   "id": 1947329633,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-20",
+    "date:cessation_upper": "2024-11-20",
     "date:inception_lower": "2024-11-20",
     "date:inception_upper": "2024-11-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-20",
+    "edtf:cessation": "2024-11-20T20:37:00Z",
+    "edtf:inception": "2024-11-20T18:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-11-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
+    "swim:tail_number": "N453UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "85277706"
+    },
     "wof:country": "US",
     "wof:created": 1732206765,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -46,12 +57,12 @@
     ],
     "wof:id": 1947329633,
     "wof:involves": [
+      1159292085,
       102531189,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1732206765,
+    "wof:lastmodified": 1732207017,
     "wof:name": "UA3934 (SFO-DEN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1947325647,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-11-20",
-    "date:inception_upper": "2024-11-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-20",
+    "date:cessation_lower": "2024-11-21",
+    "date:cessation_upper": "2024-11-21",
+    "date:inception_lower": "2024-11-21",
+    "date:inception_upper": "2024-11-21",
+    "edtf:cessation": "2024-11-21T06:07:00Z",
+    "edtf:inception": "2024-11-21T03:14:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-11-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 30.389476000000002,
     "geom:longitude": -116.044202,
     "iata:airline": "UA",
+    "icao:aircraft": "B737",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618057,
     "lbl:longitude": -122.392508,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536441,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +55,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85305203"
+    },
     "wof:country": "US",
     "wof:created": 1732205771,
     "wof:geomhash": "57b2b594ef41523ab9fe7c26d147f9bd",
@@ -83,12 +93,13 @@
     ],
     "wof:id": 1947325647,
     "wof:involves": [
+      1159289869,
       102527513,
       102536441,
       1159285413,
       1914601087
     ],
-    "wof:lastmodified": 1732205771,
+    "wof:lastmodified": 1732206979,
     "wof:name": "UA3904 (SJD-SFO)",
     "wof:parent_id": 1914601087,
     "wof:placetype": "custom",

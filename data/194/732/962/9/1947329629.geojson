@@ -2,10 +2,12 @@
   "id": 1947329629,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-21",
+    "date:cessation_upper": "2024-11-21",
     "date:inception_lower": "2024-11-20",
     "date:inception_upper": "2024-11-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-20",
+    "edtf:cessation": "2024-11-21T03:38:12Z",
+    "edtf:inception": "2024-11-20T22:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-11-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.616825,
     "lbl:longitude": -122.381021,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N780UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +57,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85270284",
+      "swim:gufi": "KO69350400"
+    },
     "wof:country": "US",
     "wof:created": 1732206765,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947329629,
     "wof:involves": [
+      1914601355,
+      1159289985,
       102533997,
       102527513,
-      1159285413,
-      1914601355
+      1159285413
     ],
-    "wof:lastmodified": 1732206765,
+    "wof:lastmodified": 1732207001,
     "wof:name": "UA3907 (SFO-HNL)",
     "wof:parent_id": 1914601355,
     "wof:placetype": "custom",
