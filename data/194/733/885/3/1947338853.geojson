@@ -2,10 +2,12 @@
   "id": 1947338853,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-11-21",
-    "date:inception_upper": "2024-11-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-21",
+    "date:cessation_lower": "2024-11-22",
+    "date:cessation_upper": "2024-11-22",
+    "date:inception_lower": "2024-11-22",
+    "date:inception_upper": "2024-11-22",
+    "edtf:cessation": "2024-11-22T08:24:00Z",
+    "edtf:inception": "2024-11-22T07:21:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-11-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B737",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N27251",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "85310045"
+    },
     "wof:country": "US",
     "wof:created": 1732293454,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -46,12 +58,12 @@
     ],
     "wof:id": 1947338853,
     "wof:involves": [
-      102533795,
-      102527513,
       1159285413,
-      -1
+      1159289869,
+      102533795,
+      102527513
     ],
-    "wof:lastmodified": 1732293454,
+    "wof:lastmodified": 1732293632,
     "wof:name": "UA8108 (SFO-LAX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

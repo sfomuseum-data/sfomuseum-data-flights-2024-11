@@ -2,10 +2,12 @@
   "id": 1947334227,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-21",
+    "date:cessation_upper": "2024-11-21",
     "date:inception_lower": "2024-11-21",
     "date:inception_upper": "2024-11-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-21",
+    "edtf:cessation": "2024-11-21T06:18:00Z",
+    "edtf:inception": "2024-11-21T02:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -107.78563,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "AAR",
     "lbl:latitude": 37.618678,
     "lbl:longitude": -122.385955,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241121-A-AAR-6312",
@@ -53,6 +57,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85297604",
+      "swim:gufi": "KP84276400"
+    },
     "wof:country": "US",
     "wof:created": 1732292397,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -92,9 +100,10 @@
       102531131,
       1159285413,
       1914600857,
-      1159283917
+      1159283917,
+      1159289407
     ],
-    "wof:lastmodified": 1732292397,
+    "wof:lastmodified": 1732293602,
     "wof:name": "UA467 (MSP-SFO)",
     "wof:parent_id": 1914600857,
     "wof:placetype": "custom",

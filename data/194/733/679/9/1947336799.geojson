@@ -2,10 +2,12 @@
   "id": 1947336799,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-11-21",
-    "date:inception_upper": "2024-11-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-21",
+    "date:cessation_lower": "2024-11-22",
+    "date:cessation_upper": "2024-11-22",
+    "date:inception_lower": "2024-11-22",
+    "date:inception_upper": "2024-11-22",
+    "edtf:cessation": "2024-11-22T04:16:00Z",
+    "edtf:inception": "2024-11-22T03:18:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "DAL",
     "icao:base_airline": "CAL",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20241121-D-CAL-9118",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
+    "swim:tail_number": "N323US",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,9 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85298482"
+    },
     "wof:country": "US",
     "wof:created": 1732292985,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -92,9 +103,10 @@
       102527513,
       1159284261,
       1914601427,
-      1159284153
+      1159284153,
+      1159292085
     ],
-    "wof:lastmodified": 1732292985,
+    "wof:lastmodified": 1732293620,
     "wof:name": "DL2528 (SFO-LAX)",
     "wof:parent_id": 1914601427,
     "wof:placetype": "custom",

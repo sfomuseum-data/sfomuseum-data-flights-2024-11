@@ -2,10 +2,12 @@
   "id": 1947333617,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-22",
+    "date:cessation_upper": "2024-11-22",
     "date:inception_lower": "2024-11-21",
     "date:inception_upper": "2024-11-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-21",
+    "edtf:cessation": "2024-11-22T02:50:21Z",
+    "edtf:inception": "2024-11-21T12:19:55Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "SQ",
     "flysfo:date": "2024-11-21",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +53,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85318265"
+    },
     "wof:country": "US",
     "wof:created": 1732292253,
     "wof:geomhash": "b883d8e3c3c604f714c4dc756f6c1133",
@@ -88,7 +96,7 @@
       1159286259,
       1914601065
     ],
-    "wof:lastmodified": 1732292253,
+    "wof:lastmodified": 1732293597,
     "wof:name": "SQ34 (SIN-SFO)",
     "wof:parent_id": 1914601065,
     "wof:placetype": "custom",

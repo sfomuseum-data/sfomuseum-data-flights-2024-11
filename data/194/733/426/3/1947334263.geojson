@@ -2,10 +2,12 @@
   "id": 1947334263,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-11-21",
-    "date:inception_upper": "2024-11-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-21",
+    "date:cessation_lower": "2024-11-22",
+    "date:cessation_upper": "2024-11-22",
+    "date:inception_lower": "2024-11-22",
+    "date:inception_upper": "2024-11-22",
+    "edtf:cessation": "2024-11-22T06:22:00Z",
+    "edtf:inception": "2024-11-22T03:36:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.1959315,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241121-A-ACA-4210",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,9 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85285547"
+    },
     "wof:country": "US",
     "wof:created": 1732292407,
     "wof:geomhash": "4b8d850891e12dfac0a460ee51cd363b",
@@ -88,13 +99,14 @@
     ],
     "wof:id": 1947334263,
     "wof:involves": [
+      1159283597,
+      1159292085,
       102527513,
       102554947,
       1159285413,
-      1914601373,
-      1159283597
+      1914601373
     ],
-    "wof:lastmodified": 1732292407,
+    "wof:lastmodified": 1732293603,
     "wof:name": "UA490 (YYC-SFO)",
     "wof:parent_id": 1914601373,
     "wof:placetype": "custom",

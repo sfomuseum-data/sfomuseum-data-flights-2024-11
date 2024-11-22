@@ -2,10 +2,12 @@
   "id": 1947333855,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-21",
+    "date:cessation_upper": "2024-11-21",
     "date:inception_lower": "2024-11-21",
     "date:inception_upper": "2024-11-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-21",
+    "edtf:cessation": "2024-11-21T08:30:00Z",
+    "edtf:inception": "2024-11-21T04:55:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.4218635,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619197,
     "lbl:longitude": -122.384496,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241121-A-ACA-4503",
@@ -53,6 +57,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85290932",
+      "swim:gufi": "KH85701400"
+    },
     "wof:country": "US",
     "wof:created": 1732292310,
     "wof:geomhash": "d45c6baaf0d56697f52acbb8a9e14867",
@@ -92,9 +100,10 @@
       102527373,
       1159285413,
       1914600923,
-      1159283597
+      1159283597,
+      1159289407
     ],
-    "wof:lastmodified": 1732292310,
+    "wof:lastmodified": 1732293598,
     "wof:name": "UA1074 (SAT-SFO)",
     "wof:parent_id": 1914600923,
     "wof:placetype": "custom",
