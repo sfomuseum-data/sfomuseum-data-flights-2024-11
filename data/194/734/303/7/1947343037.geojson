@@ -2,10 +2,12 @@
   "id": 1947343037,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-22",
+    "date:cessation_upper": "2024-11-22",
     "date:inception_lower": "2024-11-22",
     "date:inception_upper": "2024-11-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-22",
+    "edtf:cessation": "2024-11-22T08:23:00Z",
+    "edtf:inception": "2024-11-22T04:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-11-22",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.9120825,
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102521851,
@@ -35,6 +39,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "85472931"
+    },
     "wof:country": "US",
     "wof:created": 1732378612,
     "wof:geomhash": "62f9f5a2734b9c5938b0b415e9e4a515",
@@ -46,12 +53,12 @@
     ],
     "wof:id": 1947343037,
     "wof:involves": [
-      102527513,
-      102521851,
       1159285413,
-      -1
+      1528104575,
+      102527513,
+      102521851
     ],
-    "wof:lastmodified": 1732378612,
+    "wof:lastmodified": 1732379836,
     "wof:name": "UA3888 (AUS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
