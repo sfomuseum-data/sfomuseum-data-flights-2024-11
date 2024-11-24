@@ -2,10 +2,12 @@
   "id": 1947355651,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-11-23",
-    "date:inception_upper": "2024-11-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-23",
+    "date:cessation_lower": "2024-11-24",
+    "date:cessation_upper": "2024-11-24",
+    "date:inception_lower": "2024-11-24",
+    "date:inception_upper": "2024-11-24",
+    "edtf:cessation": "2024-11-24T05:16:35Z",
+    "edtf:inception": "2024-11-24T01:25:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -106.31638749999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "UAE",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530009,
     "sfomuseum:base_flight_id": "20241123-D-UAE-6491",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N475UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85482100",
+      "swim:gufi": "KO85001700"
+    },
     "wof:country": "US",
     "wof:created": 1732466004,
     "wof:geomhash": "8b4edcad4124de1c487808d2d2d1ecd3",
@@ -92,9 +105,10 @@
       102527513,
       1159285413,
       1947304457,
-      1159284333
+      1159284333,
+      1159292085
     ],
-    "wof:lastmodified": 1732466004,
+    "wof:lastmodified": 1732466331,
     "wof:name": "UA1297 (SFO-MSY)",
     "wof:parent_id": 1947304457,
     "wof:placetype": "custom",
