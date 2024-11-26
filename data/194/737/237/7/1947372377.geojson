@@ -2,10 +2,12 @@
   "id": 1947372377,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-26",
+    "date:cessation_upper": "2024-11-26",
     "date:inception_lower": "2024-11-25",
     "date:inception_upper": "2024-11-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-25",
+    "edtf:cessation": "2024-11-26T03:14:40Z",
+    "edtf:inception": "2024-11-25T23:37:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "MX",
     "flysfo:date": "2024-11-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.9025565,
     "geom:longitude": -104.05767900000001,
     "iata:airline": "MX",
+    "icao:aircraft": "BCS3",
     "icao:airline": "MXY",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1763552131,
     "sfomuseum:arrival_id": 102533321,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N204BZ",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85717416"
+    },
     "wof:country": "US",
     "wof:created": 1732638522,
     "wof:geomhash": "1b3bbc939bc3a370232933405173139d",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 1947372377,
     "wof:involves": [
-      102533321,
-      102527513,
       1763552131,
-      1947304597
+      1947304597,
+      1813375783,
+      102533321,
+      102527513
     ],
-    "wof:lastmodified": 1732638522,
+    "wof:lastmodified": 1732638965,
     "wof:name": "MX229 (SFO-SDF)",
     "wof:parent_id": 1947304597,
     "wof:placetype": "custom",
