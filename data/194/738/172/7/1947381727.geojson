@@ -2,10 +2,12 @@
   "id": 1947381727,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-26",
+    "date:cessation_upper": "2024-11-26",
     "date:inception_lower": "2024-11-26",
     "date:inception_upper": "2024-11-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-26",
+    "edtf:cessation": "2024-11-26T22:40:49Z",
+    "edtf:inception": "2024-11-26T19:49:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.4218635,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527373,
     "sfomuseum:base_flight_id": "20241126-D-ACA-4200",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N816UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85792979",
+      "swim:gufi": "KO57907300"
+    },
     "wof:country": "US",
     "wof:created": 1732725426,
     "wof:geomhash": "3d1812cb234aac8b643ea0201167e576",
@@ -92,9 +105,10 @@
       102527513,
       1159285413,
       1947304603,
-      1159283597
+      1159283597,
+      1159289407
     ],
-    "wof:lastmodified": 1732725426,
+    "wof:lastmodified": 1732725741,
     "wof:name": "UA1806 (SFO-SAT)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",
