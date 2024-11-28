@@ -2,10 +2,12 @@
   "id": 1947386679,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-11-27",
-    "date:inception_upper": "2024-11-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-27",
+    "date:cessation_lower": "2024-11-28",
+    "date:cessation_upper": "2024-11-28",
+    "date:inception_lower": "2024-11-28",
+    "date:inception_upper": "2024-11-28",
+    "edtf:cessation": "2024-11-28T05:27:47Z",
+    "edtf:inception": "2024-11-28T00:37:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-11-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.8087165,
     "geom:longitude": -102.62808,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532255,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N435UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85821876",
+      "swim:gufi": "KI77380400"
+    },
     "wof:country": "US",
     "wof:created": 1732810775,
     "wof:geomhash": "980d68d8d28509c0742a6b2a7abf5f67",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947386679,
     "wof:involves": [
+      1947304603,
+      1159292085,
       102527513,
       102532255,
-      1159285413,
-      1947304603
+      1159285413
     ],
-    "wof:lastmodified": 1732810775,
+    "wof:lastmodified": 1732812094,
     "wof:name": "UA599 (CMH-SFO)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",
