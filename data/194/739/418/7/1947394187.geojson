@@ -2,10 +2,12 @@
   "id": 1947394187,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-29",
+    "date:cessation_upper": "2024-11-29",
     "date:inception_lower": "2024-11-28",
     "date:inception_upper": "2024-11-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-28",
+    "edtf:cessation": "2024-11-29T02:24:00Z",
+    "edtf:inception": "2024-11-28T22:49:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-11-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.461048500000004,
     "geom:longitude": -108.5435595,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533051,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N217UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85991328"
+    },
     "wof:country": "US",
     "wof:created": 1732896849,
     "wof:geomhash": "35ddb46351d590846e83b74bc4468cc8",
@@ -86,9 +98,10 @@
       102527513,
       102533051,
       1159285413,
-      1947304455
+      1947304455,
+      1159289985
     ],
-    "wof:lastmodified": 1732896849,
+    "wof:lastmodified": 1732897908,
     "wof:name": "UA3771 (MCI-SFO)",
     "wof:parent_id": 1947304455,
     "wof:placetype": "custom",

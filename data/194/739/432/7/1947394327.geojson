@@ -2,10 +2,12 @@
   "id": 1947394327,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-28",
+    "date:cessation_upper": "2024-11-28",
     "date:inception_lower": "2024-11-28",
     "date:inception_upper": "2024-11-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-28",
+    "edtf:cessation": "2024-11-28T15:44:00Z",
+    "edtf:inception": "2024-11-28T02:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 11.236410499999998,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.617615,
     "lbl:longitude": -122.390247,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241128-A-DLH-8921",
@@ -53,6 +57,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85921431",
+      "swim:gufi": "KO51767500"
+    },
     "wof:country": "US",
     "wof:created": 1732896886,
     "wof:geomhash": "87faaa2af80cb57714136e3a98b5d686",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1947394327,
     "wof:involves": [
+      1159286015,
+      1159293215,
       102527513,
       102557779,
       1159285413,
-      1947304141,
-      1159286015
+      1947304141
     ],
-    "wof:lastmodified": 1732896886,
+    "wof:lastmodified": 1732897909,
     "wof:name": "UA61 (MEL-SFO)",
     "wof:parent_id": 1947304141,
     "wof:placetype": "custom",

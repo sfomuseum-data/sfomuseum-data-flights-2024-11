@@ -2,10 +2,12 @@
   "id": 1947395123,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-28",
+    "date:cessation_upper": "2024-11-28",
     "date:inception_lower": "2024-11-28",
     "date:inception_upper": "2024-11-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-28",
+    "edtf:cessation": "2024-11-28T19:45:00Z",
+    "edtf:inception": "2024-11-28T17:54:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:date": "2024-11-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.40566,
     "geom:longitude": -122.7750715,
     "iata:airline": "AC",
+    "icao:aircraft": "A320",
     "icao:airline": "ACA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102555307,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "CFCQX",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "85979473",
+      "swim:gufi": "KO49634501"
+    },
     "wof:country": "US",
     "wof:created": 1732897114,
     "wof:geomhash": "af4ccf784d832b160f78d13fe8b8589a",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1947395123,
     "wof:involves": [
+      1159292085,
       102555307,
       102527513,
-      1159283597,
-      -1
+      1159283597
     ],
-    "wof:lastmodified": 1732897114,
+    "wof:lastmodified": 1732897913,
     "wof:name": "AC7065 (SFO-YVR)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1947392885,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-29",
+    "date:cessation_upper": "2024-11-29",
     "date:inception_lower": "2024-11-28",
     "date:inception_upper": "2024-11-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-28",
+    "edtf:cessation": "2024-11-29T01:38:00Z",
+    "edtf:inception": "2024-11-28T18:01:08Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "CM",
     "flysfo:date": "2024-11-28",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +54,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "85967211"
+    },
     "wof:country": "US",
     "wof:created": 1732896504,
     "wof:geomhash": "a24fa29091ad40e8c2dcacd18340610c",
@@ -88,7 +97,7 @@
       1159284211,
       1947304095
     ],
-    "wof:lastmodified": 1732896504,
+    "wof:lastmodified": 1732897939,
     "wof:name": "CM408 (PTY-SFO)",
     "wof:parent_id": 1947304095,
     "wof:placetype": "custom",

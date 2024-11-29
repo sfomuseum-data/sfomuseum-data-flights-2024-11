@@ -2,10 +2,12 @@
   "id": 1947397233,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-29",
+    "date:cessation_upper": "2024-11-29",
     "date:inception_lower": "2024-11-28",
     "date:inception_upper": "2024-11-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-28",
+    "edtf:cessation": "2024-11-29T01:53:00Z",
+    "edtf:inception": "2024-11-28T21:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-11-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
+    "swim:tail_number": "N79011",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "85989212"
+    },
     "wof:country": "US",
     "wof:created": 1732897693,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -46,12 +57,12 @@
     ],
     "wof:id": 1947397233,
     "wof:involves": [
-      102530049,
-      102527513,
       1159285413,
-      -1
+      1159289985,
+      102530049,
+      102527513
     ],
-    "wof:lastmodified": 1732897693,
+    "wof:lastmodified": 1732897931,
     "wof:name": "UA3901 (SFO-EWR)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

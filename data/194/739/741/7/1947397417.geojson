@@ -2,10 +2,12 @@
   "id": 1947397417,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-28",
+    "date:cessation_upper": "2024-11-28",
     "date:inception_lower": "2024-11-28",
     "date:inception_upper": "2024-11-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-28",
+    "edtf:cessation": "2024-11-28T20:12:11Z",
+    "edtf:inception": "2024-11-28T19:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-11-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.9389005,
     "geom:longitude": -121.76404,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530507,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N434UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "85972861",
+      "swim:gufi": "KO60596500"
+    },
     "wof:country": "US",
     "wof:created": 1732897746,
     "wof:geomhash": "398b6cf59cf3bdf390f5834c7a336099",
@@ -46,12 +58,12 @@
     ],
     "wof:id": 1947397417,
     "wof:involves": [
-      102530507,
-      102527513,
       1159285413,
-      -1
+      1159292085,
+      102530507,
+      102527513
     ],
-    "wof:lastmodified": 1732897746,
+    "wof:lastmodified": 1732897932,
     "wof:name": "UA8195 (SFO-RDM)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
