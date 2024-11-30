@@ -2,10 +2,12 @@
   "id": 1947400775,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-11-29",
+    "date:cessation_upper": "2024-11-29",
     "date:inception_lower": "2024-11-29",
     "date:inception_upper": "2024-11-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-11-29",
+    "edtf:cessation": "2024-11-29T23:33:29Z",
+    "edtf:inception": "2024-11-29T11:56:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "TP",
     "flysfo:date": "2024-11-29",
@@ -48,6 +50,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "86075732"
+    },
     "wof:country": "US",
     "wof:created": 1732983366,
     "wof:geomhash": "d927879de9f350bec45f63af3f2c3973",
@@ -88,7 +93,7 @@
       1159285271,
       1947304101
     ],
-    "wof:lastmodified": 1732983366,
+    "wof:lastmodified": 1732984900,
     "wof:name": "TP239 (LIS-SFO)",
     "wof:parent_id": 1947304101,
     "wof:placetype": "custom",
