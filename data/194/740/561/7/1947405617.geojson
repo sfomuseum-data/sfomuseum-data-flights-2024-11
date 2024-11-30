@@ -1,0 +1,72 @@
+{
+  "id": 1947405617,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2024-11-29",
+    "date:inception_upper": "2024-11-29",
+    "edtf:cessation": "",
+    "edtf:inception": "2024-11-29",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2024-11-29",
+    "flysfo:estimated_timestamp": 1732919700,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "UA6941",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-MKE",
+    "flysfo:scheduled_timestamp": 1732906800,
+    "flysfo:timestamp": 1732919700,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-87.896339,42.949572",
+    "geom:latitude": 40.283781000000005,
+    "geom:longitude": -105.133641,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102530849,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20241129-D-UAL-6941",
+    "sfomuseum:flight_number": [
+      "UAL6941",
+      "UA6941"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1732984706,
+    "wof:geomhash": "85f13befc363c1b91d2a48be031a5d6a",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1947405617,
+        "flight_id": 1947405617
+      }
+    ],
+    "wof:id": 1947405617,
+    "wof:involves": [
+      102530849,
+      102527513,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1732984706,
+    "wof:name": "UA6941 (SFO-MKE)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2024-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -87.896339,
+    42.949572
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-87.896339,42.949572]],"type":"MultiPoint"}
+}
